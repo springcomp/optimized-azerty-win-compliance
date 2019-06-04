@@ -25,6 +25,7 @@ You can now compile and run the accompanying `compliance.exe` command-line tool,
 
 This will gather the results and report the compliance rate of the layout.
 
+<a name="compliance"></a>
 ### Current compliance level
 
 The referred to AZERTY-NF layout is currently reporting the following results:
