@@ -13,33 +13,70 @@
 
 ^r::
 
+; =========================================
+; Simple Keystrokes with Modifiers
+; =========================================
+
 ; base
+Send, {vkDE}{vk31}{vk32}{vk33}{vk34}{vk35}{vk36}{vk37}{vk38}{vk39}{vk30}{vkDB}{Enter}
+Send, {vk41}{vk5A}{vk45}{vk52}{vk54}{vk59}{vk55}{vk49}{vk4F}{vk50}{vkDD}{vkBA}{Enter}
+Send, {vk51}{vk53}{vk44}{vk46}{vk47}{vk48}{vk4A}{vk4B}{vk4C}{vk4D}{vkC0}{vkDC}{Enter}
+Send, {vkE2} {vk57}{vk58}{vk43}{vk56}{vk42}{vk4E} {vkBC}{vkBE}{vkBF}{vkDF}{Enter}
+Send, {vk20}{vk6E}{Enter}
+
+; Shift
+Send, +{vkDE}+{vk31}+{vk32}+{vk33}+{vk34}+{vk35}+{vk36}+{vk37}+{vk38}+{vk39}+{vk30} +{vkDB}{Enter}
+Send, +{vk41}+{vk5A}+{vk45}+{vk52}+{vk54}+{vk59}+{vk55}+{vk49}+{vk4F}+{vk50}+{vkDD}+{vkBA}{Enter}
+Send, +{vk51}+{vk53}+{vk44}+{vk46}+{vk47}+{vk48}+{vk4A}+{vk4B}+{vk4C}+{vk4D}+{vkC0}+{vkDC}{Enter}
+Send, +{vkE2}+{vk57}+{vk58}+{vk43}+{vk56}+{vk42}+{vk4E}+{vkBC}+{vkBE}+{vkBF}+{vkDF}{Enter}
+Send, +{vk20}+{vk6E}{Enter}
+
+; AltGr
+Send, ^!{vk31}^!{vk34}^!{vk35}^!{vk36}^!{vk38}^!{vk39}^!{vk30}^!{vkDB}{Enter}
+Send, ^!{vk41}^!{vk5A}^!{vk45}^!{vk52}^!{vk54}^!{vk59}^!{vk55}^!{vk4F}^!{vk50}^!{vkDD}^!{vkBA}{Enter}
+Send, ^!{vk51}^!{vk53}^!{vk44}^!{vk4A}^!{vk4C}^!{vk4D}^!{vkC0}^!{vkDC}{Enter}
+Send, ^!{vkE2}^!{vk57}^!{vk58}^!{vk43}^!{vkBC}^!{vkBE}^!{vkBF}^!{vkDF}{Enter}
+Send, ^!{vk20}^!{vk6E}{Enter}
+
+; Shift+AltGr
+Send, ^!+{vk31}^!+{vk32}^!+{vk33}^!+{vk34}^!+{vk37}^!+{vk38}^!+{vk39}^!+{vk30} {Enter}
+Send, ^!+{vk41}^!+{vk5A}^!+{vk45}^!+{vk52}^!+{vk54}^!+{vk59}^!+{vk55}^!+{vk4F}^!+{vk50}^!+{vkDD}^!+{vkBA}{Enter}
+Send, ^!+{vk51}^!+{vk53}^!+{vk44}^!+{vk46}^!+{vk47}^!+{vk4A}^!+{vk4B}^!+{vk4C}^!+{vk4D}^!+{vkC0}^!+{vkDC}{Enter}
+Send, ^!+{vkE2}^!+{vk57}^!+{vk58}^!+{vk43}^!+{vk42}^!+{vk4E}^!+{vkBC}^!+{vkBF}^!+{vkDF}{Enter}
+Send, ^!+{vk20}^!+{vk6E}{Enter}
+
+; [Caps Lock][On]
+SetStoreCapsLockMode, Off
+Send, {CapsLock}
+
+; [Caps Lock]
 Send, {vkDE} {vk31}{vk32}{vk33}{vk34}{vk35}{vk36}{vk37}{vk38}{vk39}{vk30} {vkDB}{Enter}
 Send, {vk41}{vk5A}{vk45}{vk52}{vk54}{vk59}{vk55}{vk49}{vk4F}{vk50} {vkDD}{vkBA}{Enter}
 Send, {vk51}{vk53}{vk44}{vk46}{vk47}{vk48}{vk4A}{vk4B}{vk4C}{vk4D} {vkC0}{vkDC}{Enter}
 Send, {vkE2} {vk57}{vk58}{vk43}{vk56}{vk42}{vk4E} {vkBC}{vkBE}{vkBF}{vkDF}{Enter}
 Send, {vk20}{vk6E}{Enter}
 
-; Shift
+; [Caps lock] Shift
 Send, +{vkDE} +{vk31}+{vk32}+{vk33}+{vk34}+{vk35}+{vk36}+{vk37}+{vk38}+{vk39}+{vk30} +{vkDB}{Enter}
 Send, +{vk41}+{vk5A}+{vk45}+{vk52}+{vk54}+{vk59}+{vk55}+{vk49}+{vk4F}+{vk50} +{vkDD}+{vkBA}{Enter}
 Send, +{vk51}+{vk53}+{vk44}+{vk46}+{vk47}+{vk48}+{vk4A}+{vk4B}+{vk4C}+{vk4D} +{vkC0}+{vkDC}{Enter}
 Send, +{vkE2} +{vk57}+{vk58}+{vk43}+{vk56}+{vk42}+{vk4E} +{vkBC}+{vkBE}+{vkBF}+{vkDF}{Enter}
 Send, +{vk20}+{vk6E}{Enter}
 
-; AltGr
-Send,            ^!{vk31}                ^!{vk34}^!{vk35}^!{vk36}        ^!{vk38}^!{vk39}^!{vk30} ^!{vkDB}{Enter}
-Send, ^!{vk41}^!{vk5A}^!{vk45}^!{vk52}^!{vk54}^!{vk59}^!{vk55}        ^!{vk4F}^!{vk50} ^!{vkDD}^!{vkBA}{Enter}
-Send, ^!{vk51}^!{vk53}^!{vk44}                        ^!{vk4A}        ^!{vk4C}^!{vk4D} ^!{vkC0}^!{vkDC}{Enter}
-Send, ^!{vkE2} ^!{vk57}^!{vk58}^!{vk43}                          ^!{vkBC}^!{vkBE}^!{vkBF}^!{vkDF}{Enter}
+; [Caps Lock] AltGr
+Send, ^!{vk31}^!{vk34}^!{vk35}^!{vk36}^!{vk38}^!{vk39}^!{vk30}^!{vkDB}{Enter}
+Send, ^!{vk41}^!{vk5A}^!{vk45}^!{vk52}^!{vk54}^!{vk59}^!{vk55}^!{vk4F}^!{vk50}^!{vkDD}^!{vkBA}{Enter}
+Send, ^!{vk51}^!{vk53}^!{vk44}^!{vk4A}^!{vk4C}^!{vk4D} ^!{vkC0}^!{vkDC}{Enter}
+Send, ^!{vkE2}^!{vk57}^!{vk58}^!{vk43}^!{vkBC}^!{vkBE}^!{vkBF}^!{vkDF}{Enter}
 Send, ^!{vk20}^!{vk6E}{Enter}
 
-; Shift+AltGr
-Send,              ^!+{vk31}^!+{vk32}^!+{vk33}^!+{vk34}                 ^!+{vk37}^!+{vk38}^!+{vk39}^!+{vk30} {Enter}
-Send, ^!+{vk41}^!+{vk5A}^!+{vk45}^!+{vk52}^!+{vk54}^!+{vk59}^!+{vk55}         ^!+{vk4F}^!+{vk50} ^!+{vkDD}^!+{vkBA}{Enter}
-Send, ^!+{vk51}^!+{vk53}^!+{vk44}^!+{vk46}^!+{vk47}         ^!+{vk4A}^!+{vk4B}^!+{vk4C}^!+{vk4D} ^!+{vkC0}^!+{vkDC}{Enter}
-Send, ^!+{vkE2} ^!+{vk57}^!+{vk58}^!+{vk43}         ^!+{vk42}^!+{vk4E} ^!+{vkBC}         ^!+{vkBF}^!+{vkDF}{Enter}
-Send, ^!+{vk20}^!+{vk6E}{Enter}
+; [Caps Lock][Off]
+Send, {CapsLock}
+
+
+; =========================================
+; Diacritical Marks and Accented Characters
+; =========================================
 
 ; grave accent
 Send, ^!{vk33}{vk41}^!{vk33}{vk45}^!{vk33}{vk49}^!{vk33}{vk4E}^!{vk33}{vk4F}^!{vk33}{vk59}{Enter}
@@ -120,5 +157,68 @@ Send, ^!{vk4B}+{vk41}^!{vk4B}+{vk43}^!{vk4B}+{vk45}^!{vk4B}+{vk4c}^!{vk4B}+{vk4f
 ; comma below
 Send, ^!+{vkBE}{vk53}^!+{vkBE}{vk54}{Enter}
 Send, ^!+{vkBE}+{vk53}^!+{vkBE}+{vk54}{Enter}
+
+
+; =========================================
+; Currency Symbols Layer
+; =========================================
+
+; base
+Send, ^!{vk46}{vk45}^!{vk46}{vk52}^!{vk46}{vk54}^!{vk46}{vk59}^!{vk46}{vk50}{Enter}
+Send, ^!{vk46}{vk53}^!{vk46}{vk44}^!{vk46}{vk46}^!{vk46}{vk47}^!{vk46}{vk48}^!{vk46}{vk4B}^!{vk46}{vk4C}^!{vk46}{vk4D}{Enter}
+Send, ^!{vk46}{vk57}^!{vk46}{vk43}^!{vk46}{vk42}^!{vk46}{vk4E}{Enter}
+
+; Shift
+Send, ^!{vk46}+{vk41}^!{vk46}+{vk52}^!{vk46}+{vk54}^!{vk46}+{vk50}{Enter}
+Send, ^!{vk46}+{vk53}^!{vk46}+{vk44}^!{vk46}+{vk46}^!{vk46}+{vk4C}^!{vk46}+{vk4D}{Enter}
+Send, ^!{vk46}+{vk43}{Enter}
+
+; AltGr
+Send, ^!{vk46}^!{vk52}^!{vk46}^!{vk50}{Enter}
+Send, ^!{vk46}^!{vk4C}^!{vk46}^!{vk4D}{Enter}
+Send, ^!{vk46}^!{vk43}{Enter}
+
+; Shift+AltGr
+Send, ^!{vk46}^!+{vk45}{Enter}
+Send, ^!{vk46}^!+{vk43}{Enter}
+
+
+; =========================================
+; Greek Characters Layer
+; =========================================
+
+; base
+Send, ^!{vk47}{vk41}^!{vk47}{vk5A}^!{vk47}{vk45}^!{vk47}{vk52}^!{vk47}{vk55}^!{vk47}{vk49}^!{vk47}{vk4F}^!{vk47}{vk50}{Enter}
+Send, ^!{vk47}{vk53}^!{vk47}{vk44}^!{vk47}{vk47}^!{vk47}{vk48}^!{vk47}{vk4A}^!{vk47}{vk4B}^!{vk47}{vk4C}^!{vk47}{vk4D}{Enter}
+Send, ^!{vk47}{vk57}^!{vk47}{vk42}^!{vk47}{vk4E}{Enter}
+
+; Shift
+Send, ^!{vk47}+{vk41}^!{vk47}+{vk5A}^!{vk47}+{vk45}^!{vk47}+{vk52}^!{vk47}+{vk55}^!{vk47}+{vk49}^!{vk47}+{vk4F}^!{vk47}+{vk50}{Enter}
+Send, ^!{vk47}+{vk53}^!{vk47}+{vk44}^!{vk47}+{vk47}^!{vk47}+{vk48}^!{vk47}+{vk4A}^!{vk47}+{vk4B}^!{vk47}+{vk4C}^!{vk47}+{vk4D}{Enter}
+Send, ^!{vk47}+{vk42}^!{vk47}+{vk4E}{Enter}
+
+; Micro sign
+Send, ^!{vk47}{vk20}{Enter}
+
+
+; =========================================
+; European Extented Characters Layer
+; =========================================
+
+; base
+Send, ^!{vk48}{vk37}^!{vk48}{vk38}^!{vk48}{vk39}^!{vk48}{vk30}^!{vk48}{vkDB}{Enter}
+Send, ^!{vk48}{vk41}^!{vk48}{vk45}^!{vk48}{vk54}^!{vk48}{vk49}^!{vk48}{vk4F}{Enter}
+Send, ^!{vk48}{vk53}^!{vk48}{vk44}^!{vk48}{vk47}^!{vk48}{vk4A}{Enter}
+
+
+; Shift
+Send, ^!{vk48}+{vk37}^!{vk48}+{vk38}^!{vk48}+{vk39}^!{vk48}+{vk30}{Enter}
+Send, ^!{vk48}+{vk45}^!{vk48}+{vk54}^!{vk48}+{vk49}{Enter}
+Send, ^!{vk48}+{vk44}^!{vk48}+{vk47}^!{vk48}+{vk4A}{Enter}
+
+
+; =========================================
+; latin characters with two diacritical marks
+; =========================================
 
 return
