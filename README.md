@@ -1,6 +1,6 @@
 ## Keyboard Layout Testing Tool
 
-This repository contains a very simple [AutoHotKey]()https://www.autohotkey.com/) script and accompanying compliance testing command-line tool, to test available keystrokes from the currently selected keyboard layout and compare the result against a know state.
+This repository contains a very simple [AutoHotKey](https://www.autohotkey.com/) script and accompanying compliance testing command-line tool, to test available keystrokes from the currently selected keyboard layout and compare the result against a know state.
 
 This tool is currently being used to test compliance of the [AZERTY-NF](https://springcomp.github.io/optimized-azerty-win/) keyboard layout.
 
