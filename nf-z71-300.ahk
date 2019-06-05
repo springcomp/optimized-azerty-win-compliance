@@ -146,11 +146,11 @@ Send, ^!+{vkDE}+{vk41}^!+{vkDE}+{vk45}^!+{vkDE}+{vk49}^!+{vkDE}+{vk4f}^!+{vkDE}+
 Send, ^!{vkDE}{vk41}^!{vkDE}{vk45}^!{vkDE}{vk47}^!{vkDE}{vk49}^!{vkDE}{vk4f}^!{vkDE}{vk55}{Enter}
 Send, ^!{vkDE}+{vk41}^!{vkDE}+{vk45}^!{vkDE}+{vk47}^!{vkDE}+{vk49}^!{vkDE}+{vk4f}^!{vkDE}+{vk55}{Enter}
 
-; short overlay
+; short stroke overlay
 Send, ^!{vk42}{vk42}^!{vk42}{vk44}^!{vk42}{vk47}^!{vk42}{vk48}^!{vk42}{vk4a}^!{vk42}{vk4c}^!{vk42}{vk52}^!{vk42}{vk54}^!{vk42}{vk59}^!{vk42}{vk5a}{Enter}
 Send, ^!{vk42}+{vk42}^!{vk42}+{vk44}^!{vk42}+{vk47}^!{vk42}+{vk48}^!{vk42}+{vk49}^!{vk42}+{vk4a}^!{vk42}+{vk4c}^!{vk42}+{vk52}^!{vk42}+{vk54}^!{vk42}+{vk55}^!{vk42}+{vk59}^!{vk42}+{vk5a}{Enter}
 
-; short stroke overlay
+; short solidus overlay
 Send, ^!{vk4B}{vk43}^!{vk4B}{vk45}^!{vk4B}{vk4c}^!{vk4B}{vk4f}^!{vk4B}^!{vk48}{Enter}
 Send, ^!{vk4B}+{vk41}^!{vk4B}+{vk43}^!{vk4B}+{vk45}^!{vk4B}+{vk4c}^!{vk4B}+{vk4f}^!{vk4B}+{vk54}{Enter}
 
