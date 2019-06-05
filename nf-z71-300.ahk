@@ -158,6 +158,10 @@ Send, ^!{vk4B}+{vk41}^!{vk4B}+{vk43}^!{vk4B}+{vk45}^!{vk4B}+{vk4c}^!{vk4B}+{vk4f
 Send, ^!+{vkBE}{vk53}^!+{vkBE}{vk54}{Enter}
 Send, ^!+{vkBE}+{vk53}^!+{vkBE}+{vk54}{Enter}
 
+; tilde-based math symbols
+Send, ^!{vk4E}{vkDD}{Enter}
+Send, ^!{vk4E}{vkE2}^!{vk4E}+{vkE2}^!{vk4E}+{vkDF}{Enter}
+
 
 ; =========================================
 ; Currency Symbols Layer
