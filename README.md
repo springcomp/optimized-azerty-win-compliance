@@ -6,7 +6,7 @@ This tool is currently being used to test compliance of the [AZERTY-NF](https://
 
 ### How to test
 
-This repository contains the current `expected.txt` file that stores the requested keystrokes for a NF Z71-300 standard-compliant AZERTY keyboard layout. It also stores and alternate `expected_sgcaps.txt` file for a customized layout allowing direct input of upper case accented characters when using <kbd>Caps Lock</kbd> which is a popular option.
+This repository contains the current `expected.txt` file that stores the requested keystrokes for a NF Z71-300 standard-compliant AZERTY keyboard layout.
 
 In order to test the keyboard layout, please follow the steps outlined hereafter:
 
@@ -56,3 +56,5 @@ The referred to AZERTY-NF layout is currently reporting the following results:
 The only deviation from the standard comes from the SGCaps feature that allows typing upper case accented characters
 when <kbd>Caps Lock</kbd> is enabled. The standard chose to carry out the legacy behavior of the current AZERTY layout
 by mandating that letters be input instead in that case.
+
+For this reason, this repository also contains an alternate `expected_sgcaps.txt` file for a customized layout allowing direct input of upper case accented characters when using <kbd>Caps Lock</kbd> which is a popular option.
