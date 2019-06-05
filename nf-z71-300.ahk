@@ -173,6 +173,17 @@ Send, ^!{vk4B}{vkE2}^!{vk4B}+{vkE2}^!{vk4B}^!{vkE2}^!{vk4B}^!+{vkE2}{Enter}
 
 
 ; =========================================
+; Subscripts and superscripts symbols
+; =========================================
+
+; caron-based subscript symbols
+Send, ^!{vkBB}+{vk31}^!{vkBB}+{vk32}^!{vkBB}+{vk33}^!{vkBB}+{vk34}^!{vkBB}+{vk35}^!{vkBB}+{vk36}^!{vkBB}+{vk37}^!{vkBB}+{vk38}^!{vkBB}+{vk39}^!{vkBB}+{vk30}{Enter}
+
+; circomflex-based superscript symbols
+Send, {vkBB}+{vk31}{vkBB}+{vk32}{vkBB}+{vk33}{vkBB}+{vk34}{vkBB}+{vk35}{vkBB}+{vk36}{vkBB}+{vk37}{vkBB}+{vk38}{vkBB}+{vk39}{vkBB}+{vk30}{Enter}
+
+
+; =========================================
 ; Currency Symbols Layer
 ; =========================================
 
