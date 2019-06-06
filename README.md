@@ -18,10 +18,8 @@ In order to test the keyboard layout, please follow the steps outlined hereafter
 
 You can now compile and run the accompanying `compliance.exe` command-line tool, with the following command:
 
-    ````
     PS> cd src/
     PS> dotnet run ..\expected.txt ..\actual.txt
-    ````
 
 This will gather the results and report the compliance rate of the layout.
 
