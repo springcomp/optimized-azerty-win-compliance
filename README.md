@@ -53,6 +53,6 @@ The referred to AZERTY-NF layout is currently reporting the following results:
 
 The only deviation from the standard comes from the SGCaps feature that allows typing upper case accented characters
 when <kbd>Caps Lock</kbd> is enabled. The standard chose to carry out the legacy behavior of the current AZERTY layout
-by mandating that letters be input instead in that case.
+by mandating that numbers be input instead of the corresponding upper case letter in that case.
 
 For this reason, this repository also contains an alternate `expected_sgcaps.txt` file for a customized layout allowing direct input of upper case accented characters when using <kbd>Caps Lock</kbd> which is a popular option.
