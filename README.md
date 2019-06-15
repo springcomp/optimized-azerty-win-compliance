@@ -26,7 +26,11 @@ This will gather the results and report the compliance rate of the layout.
 <a name="compliance"></a>
 ### Current compliance level
 
-The referred to AZERTY-NF layout is currently reporting the following results:
+The referred-to AZERTY-NF (Numérique) layout reports 100% standard compliance.
+
+The referred-to AZERTY-NF layout with SGCaps feature is only slightly less compliant, and brings a very useful way to type accented characters in upper case.
+
+It is currently reporting the following results:
 
     Success: 97,34%
     Total: 752, Succeeded: 732, Failed: 20.
@@ -50,9 +54,5 @@ The referred to AZERTY-NF layout is currently reporting the following results:
     ..\expected.txt(26, 9): Expected: ''' (U+2019), Actual: '8' (U+0038).
     ..\expected.txt(26, 10): Expected: '«' (U+00AB), Actual: '9' (U+0039).
     ..\expected.txt(26, 11): Expected: '»' (U+00BB), Actual: '0' (U+0030).
-
-The only deviation from the standard comes from the SGCaps feature that allows typing upper case accented characters
-when <kbd>Caps Lock</kbd> is enabled. The standard chose to carry out the legacy behavior of the current AZERTY layout
-by mandating that numbers be input instead of the corresponding upper case letter in that case.
 
 For this reason, this repository also contains an alternate `expected_sgcaps.txt` file for a customized layout allowing direct input of upper case accented characters when using <kbd>Caps Lock</kbd> which is a popular option.
