@@ -1,4 +1,4 @@
-﻿; This AutoHotKey script tests all available key combinations
+﻿; This AutoHotKey script tests all mandatory key combinations
 ; for the AZERTY Keyboard Layout as standardized by AFNOR.
 ;
 ; To check compliance of your layout, please, perform the following steps:
@@ -240,9 +240,5 @@ Send, ^!{vk48}+{vk37}^!{vk48}+{vk38}^!{vk48}+{vk39}^!{vk48}+{vk30}{Enter}
 Send, ^!{vk48}+{vk45}^!{vk48}+{vk54}^!{vk48}+{vk49}{Enter}
 Send, ^!{vk48}+{vk44}^!{vk48}+{vk47}^!{vk48}+{vk4A}{Enter}
 
-
-; =========================================
-; latin characters with two diacritical marks
-; =========================================
 
 return
