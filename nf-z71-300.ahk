@@ -190,7 +190,7 @@ Send, {vkBB}+{vk31}{vkBB}+{vk32}{vkBB}+{vk33}{vkBB}+{vk34}{vkBB}+{vk35}{vkBB}+{v
 ; base
 Send, ^!{vk46}{vk45}^!{vk46}{vk52}^!{vk46}{vk54}^!{vk46}{vk59}^!{vk46}{vk50}{Enter}
 Send, ^!{vk46}{vk53}^!{vk46}{vk44}^!{vk46}{vk46}^!{vk46}{vk47}^!{vk46}{vk48}^!{vk46}{vk4B}^!{vk46}{vk4C}^!{vk46}{vk4D}{Enter}
-Send, ^!{vk46}{vk57}^!{vk46}{vk43}^!{vk46}{vk42}^!{vk46}{vk4E}{Enter}
+Send, ^!{vk46}{vk57}^!{vk46}{vk43}^!{vk46}{vk4E}{Enter}
 
 ; Shift
 Send, ^!{vk46}+{vk41}^!{vk46}+{vk52}^!{vk46}+{vk54}^!{vk46}+{vk50}{Enter}
