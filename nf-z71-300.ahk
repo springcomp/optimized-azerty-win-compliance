@@ -21,28 +21,28 @@
 Send, {vkDE}{vk31}{vk32}{vk33}{vk34}{vk35}{vk36}{vk37}{vk38}{vk39}{vk30}{vkDB}{Enter}
 Send, {vk41}{vk5A}{vk45}{vk52}{vk54}{vk59}{vk55}{vk49}{vk4F}{vk50}{vkDD}{vkBA}{Enter}
 Send, {vk51}{vk53}{vk44}{vk46}{vk47}{vk48}{vk4A}{vk4B}{vk4C}{vk4D}{vkC0}{vkDC}{Enter}
-Send, {vkE2}{vk57}{vk58}{vk43}{vk56}{vk42}{vk4E}{vkBC}{vkBE}{vkBF}{vkDF}{Enter}
+Send, {vkE2}{vk57}{vk58}{vk43}{vk56}{vk42}{vk4E}{vkBE}{vkBC}{vkBF}{vkDF}{Enter}
 Send, {vk20}{vk6E}{Enter}
 
 ; Shift
 Send, +{vkDE}+{vk31}+{vk32}+{vk33}+{vk34}+{vk35}+{vk36}+{vk37}+{vk38}+{vk39}+{vk30} +{vkDB}{Enter}
 Send, +{vk41}+{vk5A}+{vk45}+{vk52}+{vk54}+{vk59}+{vk55}+{vk49}+{vk4F}+{vk50}+{vkDD}+{vkBA}{Enter}
 Send, +{vk51}+{vk53}+{vk44}+{vk46}+{vk47}+{vk48}+{vk4A}+{vk4B}+{vk4C}+{vk4D}+{vkC0}+{vkDC}{Enter}
-Send, +{vkE2}+{vk57}+{vk58}+{vk43}+{vk56}+{vk42}+{vk4E}+{vkBC}+{vkBE}+{vkBF}+{vkDF}{Enter}
+Send, +{vkE2}+{vk57}+{vk58}+{vk43}+{vk56}+{vk42}+{vk4E}+{vkBE}+{vkBC}+{vkBF}+{vkDF}{Enter}
 Send, +{vk20}+{vk6E}{Enter}
 
 ; AltGr
 Send, ^!{vk31}^!{vk34}^!{vk35}^!{vk36}^!{vk38}^!{vk39}^!{vk30}^!{vkDB}{Enter}
 Send, ^!{vk41}^!{vk5A}^!{vk45}^!{vk52}^!{vk54}^!{vk59}^!{vk55}^!{vk4F}^!{vk50}^!{vkDD}^!{vkBA}{Enter}
 Send, ^!{vk51}^!{vk53}^!{vk44}^!{vk4A}^!{vk4C}^!{vk4D}^!{vkC0}^!{vkDC}{Enter}
-Send, ^!{vkE2}^!{vk57}^!{vk58}^!{vk43}^!{vkBC}^!{vkBE}^!{vkBF}^!{vkDF}{Enter}
+Send, ^!{vkE2}^!{vk57}^!{vk58}^!{vk43}^!{vkBE}^!{vkBC}^!{vkBF}^!{vkDF}{Enter}
 Send, ^!{vk20}^!{vk6E}{Enter}
 
 ; Shift+AltGr
 Send, ^!+{vk31}^!+{vk32}^!+{vk33}^!+{vk34}^!+{vk37}^!+{vk38}^!+{vk39}^!+{vk30} {Enter}
 Send, ^!+{vk41}^!+{vk5A}^!+{vk45}^!+{vk52}^!+{vk54}^!+{vk59}^!+{vk55}^!+{vk4F}^!+{vk50}^!+{vkDD}^!+{vkBA}{Enter}
 Send, ^!+{vk51}^!+{vk53}^!+{vk44}^!+{vk46}^!+{vk47}^!+{vk4A}^!+{vk4B}^!+{vk4C}^!+{vk4D}^!+{vkC0}^!+{vkDC}{Enter}
-Send, ^!+{vkE2}^!+{vk57}^!+{vk58}^!+{vk43}^!+{vk42}^!+{vk4E}^!+{vkBC}^!+{vkBF}^!+{vkDF}{Enter}
+Send, ^!+{vkE2}^!+{vk57}^!+{vk58}^!+{vk43}^!+{vk42}^!+{vk4E}^!+{vkBE}^!+{vkBF}^!+{vkDF}{Enter}
 Send, ^!+{vk20}^!+{vk6E}{Enter}
 
 ; [Caps Lock][On]
@@ -53,21 +53,21 @@ Send, {CapsLock}
 Send, {vkDE}{vk31}{vk32}{vk33}{vk34}{vk35}{vk36}{vk37}{vk38}{vk39}{vk30}{vkDB}{Enter}
 Send, {vk41}{vk5A}{vk45}{vk52}{vk54}{vk59}{vk55}{vk49}{vk4F}{vk50}{vkDD}{vkBA}{Enter}
 Send, {vk51}{vk53}{vk44}{vk46}{vk47}{vk48}{vk4A}{vk4B}{vk4C}{vk4D}{vkC0}{vkDC}{Enter}
-Send, {vkE2}{vk57}{vk58}{vk43}{vk56}{vk42}{vk4E}{vkBC}{vkBE}{vkBF}{vkDF}{Enter}
+Send, {vkE2}{vk57}{vk58}{vk43}{vk56}{vk42}{vk4E}{vkBE}{vkBC}{vkBF}{vkDF}{Enter}
 Send, {vk20}{vk6E}{Enter}
 
 ; [Caps lock] Shift
 Send, +{vkDE}+{vk31}+{vk32}+{vk33}+{vk34}+{vk35}+{vk36}+{vk37}+{vk38}+{vk39}+{vk30}+{vkDB}{Enter}
 Send, +{vk41}+{vk5A}+{vk45}+{vk52}+{vk54}+{vk59}+{vk55}+{vk49}+{vk4F}+{vk50}+{vkDD}+{vkBA}{Enter}
 Send, +{vk51}+{vk53}+{vk44}+{vk46}+{vk47}+{vk48}+{vk4A}+{vk4B}+{vk4C}+{vk4D}+{vkC0}+{vkDC}{Enter}
-Send, +{vkE2}+{vk57}+{vk58}+{vk43}+{vk56}+{vk42}+{vk4E}+{vkBC}+{vkBE}+{vkBF}+{vkDF}{Enter}
+Send, +{vkE2}+{vk57}+{vk58}+{vk43}+{vk56}+{vk42}+{vk4E}+{vkBE}+{vkBC}+{vkBF}+{vkDF}{Enter}
 Send, +{vk20}+{vk6E}{Enter}
 
 ; [Caps Lock] AltGr
 Send, ^!{vk31}^!{vk34}^!{vk35}^!{vk36}^!{vk38}^!{vk39}^!{vk30}^!{vkDB}{Enter}
 Send, ^!{vk41}^!{vk5A}^!{vk45}^!{vk52}^!{vk54}^!{vk59}^!{vk55}^!{vk4F}^!{vk50}^!{vkDD}^!{vkBA}{Enter}
 Send, ^!{vk51}^!{vk53}^!{vk44}^!{vk4A}^!{vk4C}^!{vk4D}^!{vkC0}^!{vkDC}{Enter}
-Send, ^!{vkE2}^!{vk57}^!{vk58}^!{vk43}^!{vkBC}^!{vkBE}^!{vkBF}^!{vkDF}{Enter}
+Send, ^!{vkE2}^!{vk57}^!{vk58}^!{vk43}^!{vkBE}^!{vkBC}^!{vkBF}^!{vkDF}{Enter}
 Send, ^!{vk20}^!{vk6E}{Enter}
 
 ; [Caps Lock][Off]
@@ -155,8 +155,8 @@ Send, ^!{vk4B}{vk43}^!{vk4B}{vk45}^!{vk4B}{vk4c}^!{vk4B}{vk4f}^!{vk4B}^!{vk48}{E
 Send, ^!{vk4B}+{vk41}^!{vk4B}+{vk43}^!{vk4B}+{vk45}^!{vk4B}+{vk4c}^!{vk4B}+{vk4f}^!{vk4B}+{vk54}{Enter}
 
 ; comma below
-Send, ^!+{vkBE}{vk53}^!+{vkBE}{vk54}{Enter}
-Send, ^!+{vkBE}+{vk53}^!+{vkBE}+{vk54}{Enter}
+Send, ^!+{vkBC}{vk53}^!+{vkBC}{vk54}{Enter}
+Send, ^!+{vkBC}+{vk53}^!+{vkBC}+{vk54}{Enter}
 
 
 ; =========================================
