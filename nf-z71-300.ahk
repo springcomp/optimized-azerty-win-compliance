@@ -168,7 +168,7 @@ Send, ^!{vk4E}{vkBD}{Enter}
 Send, ^!{vk4E}{vkE2}^!{vk4E}+{vkE2}^!{vk4E}+{vkDF}{Enter}
 
 ; stroke-based math symbols
-Send, ^!{vk4B}+{vkDF}{Enter}
+Send, ^!{vk4B}+{vkDF}{Enter}^!{vk4B}^!{vkDF}{Enter} 
 Send, ^!{vk4B}{vkE2}^!{vk4B}+{vkE2}^!{vk4B}^!{vkE2}^!{vk4B}^!+{vkE2}{Enter}
 
 
