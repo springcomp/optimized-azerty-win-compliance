@@ -32,18 +32,18 @@ Send, +{vkE2}+{vk57}+{vk58}+{vk43}+{vk56}+{vk42}+{vk4E}+{vkBE}+{vkBC}+{vkBF}+{vk
 Send, +{vk20}+{vk6E}{Enter}
 
 ; AltGr
-Send, ^!{vk31}^!{vk34}^!{vk35}^!{vk36}^!{vk38}^!{vk39}^!{vk30}^!{vkDB}{Enter}
-Send, ^!{vk41}^!{vk5A}^!{vk45}^!{vk52}^!{vk54}^!{vk59}^!{vk55}^!{vk4F}^!{vk50}^!{vkBD}^!{vkBB}{Enter}
-Send, ^!{vk51}^!{vk53}^!{vk44}^!{vk4A}^!{vk4C}^!{vk4D}^!{vkC0}^!{vkDC}{Enter}
-Send, ^!{vkE2}^!{vk57}^!{vk58}^!{vk43}^!{vkBE}^!{vkBC}^!{vkBF}^!{vkDF}{Enter}
-Send, ^!{vk20}^!{vk6E}{Enter}
+Send, {RAlt down}{vk31}{RAlt up}{RAlt down}{vk34}{RAlt up}{RAlt down}{vk35}{RAlt up}{RAlt down}{vk36}{RAlt up}{RAlt down}{vk38}{RAlt up}{RAlt down}{vk39}{RAlt up}{RAlt down}{vk30}{RAlt up}{RAlt down}{vkDB}{RAlt up}{Enter}
+Send, {RAlt down}{vk41}{RAlt up}{RAlt down}{vk5A}{RAlt up}{RAlt down}{vk45}{RAlt up}{RAlt down}{vk52}{RAlt up}{RAlt down}{vk54}{RAlt up}{RAlt down}{vk59}{RAlt up}{RAlt down}{vk55}{RAlt up}{RAlt down}{vk4F}{RAlt up}{RAlt down}{vk50}{RAlt up}{RAlt down}{vkBD}{RAlt up}{RAlt down}{vkBB}{RAlt up}{Enter}
+Send, {RAlt down}{vk51}{RAlt up}{RAlt down}{vk53}{RAlt up}{RAlt down}{vk44}{RAlt up}{RAlt down}{vk4A}{RAlt up}{RAlt down}{vk4C}{RAlt up}{RAlt down}{vk4D}{RAlt up}{RAlt down}{vkC0}{RAlt up}{RAlt down}{vkDC}{RAlt up}{Enter}
+Send, {RAlt down}{vkE2}{RAlt up}{RAlt down}{vk57}{RAlt up}{RAlt down}{vk58}{RAlt up}{RAlt down}{vk43}{RAlt up}{RAlt down}{vkBE}{RAlt up}{RAlt down}{vkBC}{RAlt up}{RAlt down}{vkBF}{RAlt up}{RAlt down}{vkDF}{RAlt up}{Enter}
+Send, {RAlt down}{vk20}{RAlt up}{RAlt down}{vk6E}{RAlt up}{Enter}
 
 ; Shift+AltGr
-Send, ^!+{vk31}^!+{vk32}^!+{vk33}^!+{vk34}^!+{vk37}^!+{vk38}^!+{vk39}^!+{vk30} {Enter}
-Send, ^!+{vk41}^!+{vk5A}^!+{vk45}^!+{vk52}^!+{vk54}^!+{vk59}^!+{vk55}^!+{vk4F}^!+{vk50}^!+{vkBD}^!+{vkBB}{Enter}
-Send, ^!+{vk51}^!+{vk53}^!+{vk44}^!+{vk46}^!+{vk47}^!+{vk4A}^!+{vk4B}^!+{vk4C}^!+{vk4D}^!+{vkC0}^!+{vkDC}{Enter}
-Send, ^!+{vkE2}^!+{vk57}^!+{vk58}^!+{vk43}^!+{vk42}^!+{vk4E}^!+{vkBE}^!+{vkBF}^!+{vkDF}{Enter}
-Send, ^!+{vk20}^!+{vk6E}{Enter}
+Send, {RAlt down}+{vk31}{RAlt up}{RAlt down}+{vk32}{RAlt up}{RAlt down}+{vk33}{RAlt up}{RAlt down}+{vk34}{RAlt up}{RAlt down}+{vk37}{RAlt up}{RAlt down}+{vk38}{RAlt up}{RAlt down}+{vk39}{RAlt up}{RAlt down}+{vk30}{RAlt up} {Enter}
+Send, {RAlt down}+{vk41}{RAlt up}{RAlt down}+{vk5A}{RAlt up}{RAlt down}+{vk45}{RAlt up}{RAlt down}+{vk52}{RAlt up}{RAlt down}+{vk54}{RAlt up}{RAlt down}+{vk59}{RAlt up}{RAlt down}+{vk55}{RAlt up}{RAlt down}+{vk4F}{RAlt up}{RAlt down}+{vk50}{RAlt up}{RAlt down}+{vkBD}{RAlt up}{RAlt down}+{vkBB}{RAlt up}{Enter}
+Send, {RAlt down}+{vk51}{RAlt up}{RAlt down}+{vk53}{RAlt up}{RAlt down}+{vk44}{RAlt up}{RAlt down}+{vk46}{RAlt up}{RAlt down}+{vk47}{RAlt up}{RAlt down}+{vk4A}{RAlt up}{RAlt down}+{vk4B}{RAlt up}{RAlt down}+{vk4C}{RAlt up}{RAlt down}+{vk4D}{RAlt up}{RAlt down}+{vkC0}{RAlt up}{RAlt down}+{vkDC}{RAlt up}{Enter}
+Send, {RAlt down}+{vkE2}{RAlt up}{RAlt down}+{vk57}{RAlt up}{RAlt down}+{vk58}{RAlt up}{RAlt down}+{vk43}{RAlt up}{RAlt down}+{vk42}{RAlt up}{RAlt down}+{vk4E}{RAlt up}{RAlt down}+{vkBE}{RAlt up}{RAlt down}+{vkBF}{RAlt up}{RAlt down}+{vkDF}{RAlt up}{Enter}
+Send, {RAlt down}+{vk20}{RAlt up}{RAlt down}+{vk6E}{RAlt up}{Enter}
 
 ; [Caps Lock][On]
 SetStoreCapsLockMode, Off
@@ -64,11 +64,11 @@ Send, +{vkE2}+{vk57}+{vk58}+{vk43}+{vk56}+{vk42}+{vk4E}+{vkBE}+{vkBC}+{vkBF}+{vk
 Send, +{vk20}+{vk6E}{Enter}
 
 ; [Caps Lock] AltGr
-Send, ^!{vk31}^!{vk34}^!{vk35}^!{vk36}^!{vk38}^!{vk39}^!{vk30}^!{vkDB}{Enter}
-Send, ^!{vk41}^!{vk5A}^!{vk45}^!{vk52}^!{vk54}^!{vk59}^!{vk55}^!{vk4F}^!{vk50}^!{vkBD}^!{vkBB}{Enter}
-Send, ^!{vk51}^!{vk53}^!{vk44}^!{vk4A}^!{vk4C}^!{vk4D}^!{vkC0}^!{vkDC}{Enter}
-Send, ^!{vkE2}^!{vk57}^!{vk58}^!{vk43}^!{vkBE}^!{vkBC}^!{vkBF}^!{vkDF}{Enter}
-Send, ^!{vk20}^!{vk6E}{Enter}
+Send, {RAlt down}{vk31}{RAlt up}{RAlt down}{vk34}{RAlt up}{RAlt down}{vk35}{RAlt up}{RAlt down}{vk36}{RAlt up}{RAlt down}{vk38}{RAlt up}{RAlt down}{vk39}{RAlt up}{RAlt down}{vk30}{RAlt up}{RAlt down}{vkDB}{RAlt up}{Enter}
+Send, {RAlt down}{vk41}{RAlt up}{RAlt down}{vk5A}{RAlt up}{RAlt down}{vk45}{RAlt up}{RAlt down}{vk52}{RAlt up}{RAlt down}{vk54}{RAlt up}{RAlt down}{vk59}{RAlt up}{RAlt down}{vk55}{RAlt up}{RAlt down}{vk4F}{RAlt up}{RAlt down}{vk50}{RAlt up}{RAlt down}{vkBD}{RAlt up}{RAlt down}{vkBB}{RAlt up}{Enter}
+Send, {RAlt down}{vk51}{RAlt up}{RAlt down}{vk53}{RAlt up}{RAlt down}{vk44}{RAlt up}{RAlt down}{vk4A}{RAlt up}{RAlt down}{vk4C}{RAlt up}{RAlt down}{vk4D}{RAlt up}{RAlt down}{vkC0}{RAlt up}{RAlt down}{vkDC}{RAlt up}{Enter}
+Send, {RAlt down}{vkE2}{RAlt up}{RAlt down}{vk57}{RAlt up}{RAlt down}{vk58}{RAlt up}{RAlt down}{vk43}{RAlt up}{RAlt down}{vkBE}{RAlt up}{RAlt down}{vkBC}{RAlt up}{RAlt down}{vkBF}{RAlt up}{RAlt down}{vkDF}{RAlt up}{Enter}
+Send, {RAlt down}{vk20}{RAlt up}{RAlt down}{vk6E}{RAlt up}{Enter}
 
 ; [Caps Lock][Off]
 Send, {CapsLock}
@@ -79,8 +79,8 @@ Send, {CapsLock}
 ; =========================================
 
 ; grave accent
-Send, ^!{vk33}{vk41}^!{vk33}{vk45}^!{vk33}{vk49}^!{vk33}{vk4E}^!{vk33}{vk4F}^!{vk33}{vk59}{Enter}
-Send, ^!{vk33}+{vk41}^!{vk33}+{vk45}^!{vk33}+{vk49}^!{vk33}+{vk4E}^!{vk33}+{vk4F}^!{vk33}+{vk59}{Enter}
+Send, {RAlt down}{vk33}{RAlt up}{vk41}{RAlt down}{vk33}{RAlt up}{vk45}{RAlt down}{vk33}{RAlt up}{vk49}{RAlt down}{vk33}{RAlt up}{vk4E}{RAlt down}{vk33}{RAlt up}{vk4F}{RAlt down}{vk33}{RAlt up}{vk59}{Enter}
+Send, {RAlt down}{vk33}{RAlt up}+{vk41}{RAlt down}{vk33}{RAlt up}+{vk45}{RAlt down}{vk33}{RAlt up}+{vk49}{RAlt down}{vk33}{RAlt up}+{vk4E}{RAlt down}{vk33}{RAlt up}+{vk4F}{RAlt down}{vk33}{RAlt up}+{vk59}{Enter}
 
 ; circumflex accent
 Send, {vkDD}{vk41}{vkDD}{vk43}{vkDD}{vk45}{vkDD}{vk47}{vkDD}{vk48}{vkDD}{vk49}{vkDD}{vk4a}{vkDD}{vk4f}{vkDD}{vk53}{vkDD}{vk55}{vkDD}{vk59}{vkDD}{vk5a}{Enter}
@@ -91,72 +91,72 @@ Send, +{vkDD}{vk41}+{vkDD}{vk45}+{vkDD}{vk48}+{vkDD}{vk49}+{vkDD}{vk4f}+{vkDD}{v
 Send, +{vkDD}+{vk41}+{vkDD}+{vk45}+{vkDD}+{vk48}+{vkDD}+{vk49}+{vkDD}+{vk4f}+{vkDD}+{vk55}+{vkDD}+{vk57}+{vkDD}+{vk58}+{vkDD}+{vk59}{Enter}
 
 ; tilde
-Send, ^!{vk4E}{vk41}^!{vk4E}{vk45}^!{vk4E}{vk49}^!{vk4E}{vk4e}^!{vk4E}{vk4f}^!{vk4E}{vk55}^!{vk4E}{vk56}^!{vk4E}{vk59}{Enter}
-Send, ^!{vk4E}+{vk41}^!{vk4E}+{vk45}^!{vk4E}+{vk49}^!{vk4E}+{vk4e}^!{vk4E}+{vk4f}^!{vk4E}+{vk55}^!{vk4E}+{vk56}^!{vk4E}+{vk59}{Enter}
+Send, {RAlt down}{vk4E}{RAlt up}{vk41}{RAlt down}{vk4E}{RAlt up}{vk45}{RAlt down}{vk4E}{RAlt up}{vk49}{RAlt down}{vk4E}{RAlt up}{vk4e}{RAlt down}{vk4E}{RAlt up}{vk4f}{RAlt down}{vk4E}{RAlt up}{vk55}{RAlt down}{vk4E}{RAlt up}{vk56}{RAlt down}{vk4E}{RAlt up}{vk59}{Enter}
+Send, {RAlt down}{vk4E}{RAlt up}+{vk41}{RAlt down}{vk4E}{RAlt up}+{vk45}{RAlt down}{vk4E}{RAlt up}+{vk49}{RAlt down}{vk4E}{RAlt up}+{vk4e}{RAlt down}{vk4E}{RAlt up}+{vk4f}{RAlt down}{vk4E}{RAlt up}+{vk55}{RAlt down}{vk4E}{RAlt up}+{vk56}{RAlt down}{vk4E}{RAlt up}+{vk59}{Enter}
 
 ; acute accent
-Send, ^!{vk32}{vk41}^!{vk32}{vk43}^!{vk32}{vk45}^!{vk32}{vk47}^!{vk32}{vk49}^!{vk32}{vk4b}^!{vk32}{vk4c}^!{vk32}{vk4d}^!{vk32}{vk4e}^!{vk32}{vk4f}^!{vk32}{vk50}^!{vk32}{vk52}^!{vk32}{vk53}^!{vk32}{vk55}^!{vk32}{vk57}^!{vk32}{vk59}^!{vk32}{vk5a}^!{vk32}^!{vk41}{Enter}
-Send, ^!{vk32}+{vk41}^!{vk32}+{vk43}^!{vk32}+{vk45}^!{vk32}+{vk47}^!{vk32}+{vk49}^!{vk32}+{vk4b}^!{vk32}+{vk4c}^!{vk32}+{vk4d}^!{vk32}+{vk4e}^!{vk32}+{vk4f}^!{vk32}+{vk50}^!{vk32}+{vk52}^!{vk32}+{vk53}^!{vk32}+{vk55}^!{vk32}+{vk57}^!{vk32}+{vk59}^!{vk32}+{vk5a}^!{vk32}^!+{vk41}{Enter}
+Send, {RAlt down}{vk32}{RAlt up}{vk41}{RAlt down}{vk32}{RAlt up}{vk43}{RAlt down}{vk32}{RAlt up}{vk45}{RAlt down}{vk32}{RAlt up}{vk47}{RAlt down}{vk32}{RAlt up}{vk49}{RAlt down}{vk32}{RAlt up}{vk4b}{RAlt down}{vk32}{RAlt up}{vk4c}{RAlt down}{vk32}{RAlt up}{vk4d}{RAlt down}{vk32}{RAlt up}{vk4e}{RAlt down}{vk32}{RAlt up}{vk4f}{RAlt down}{vk32}{RAlt up}{vk50}{RAlt down}{vk32}{RAlt up}{vk52}{RAlt down}{vk32}{RAlt up}{vk53}{RAlt down}{vk32}{RAlt up}{vk55}{RAlt down}{vk32}{RAlt up}{vk57}{RAlt down}{vk32}{RAlt up}{vk59}{RAlt down}{vk32}{RAlt up}{vk5a}{RAlt down}{vk32}{RAlt up}{RAlt down}{vk41}{RAlt up}{Enter}
+Send, {RAlt down}{vk32}{RAlt up}+{vk41}{RAlt down}{vk32}{RAlt up}+{vk43}{RAlt down}{vk32}{RAlt up}+{vk45}{RAlt down}{vk32}{RAlt up}+{vk47}{RAlt down}{vk32}{RAlt up}+{vk49}{RAlt down}{vk32}{RAlt up}+{vk4b}{RAlt down}{vk32}{RAlt up}+{vk4c}{RAlt down}{vk32}{RAlt up}+{vk4d}{RAlt down}{vk32}{RAlt up}+{vk4e}{RAlt down}{vk32}{RAlt up}+{vk4f}{RAlt down}{vk32}{RAlt up}+{vk50}{RAlt down}{vk32}{RAlt up}+{vk52}{RAlt down}{vk32}{RAlt up}+{vk53}{RAlt down}{vk32}{RAlt up}+{vk55}{RAlt down}{vk32}{RAlt up}+{vk57}{RAlt down}{vk32}{RAlt up}+{vk59}{RAlt down}{vk32}{RAlt up}+{vk5a}{RAlt down}{vk32}{RAlt up}{RAlt down}+{vk41}{RAlt up}{Enter}
 
 ; cedilla
-Send, ^!{vk56}{vk43}^!{vk56}{vk44}^!{vk56}{vk45}^!{vk56}{vk47}^!{vk56}{vk48}^!{vk56}{vk4b}^!{vk56}{vk4c}^!{vk56}{vk4e}^!{vk56}{vk52}^!{vk56}{vk53}^!{vk56}{vk54}{Enter}
-Send, ^!{vk56}+{vk43}^!{vk56}+{vk44}^!{vk56}+{vk45}^!{vk56}+{vk47}^!{vk56}+{vk48}^!{vk56}+{vk4b}^!{vk56}+{vk4c}^!{vk56}+{vk4e}^!{vk56}+{vk52}^!{vk56}+{vk53}^!{vk56}+{vk54}{Enter}
+Send, {RAlt down}{vk56}{RAlt up}{vk43}{RAlt down}{vk56}{RAlt up}{vk44}{RAlt down}{vk56}{RAlt up}{vk45}{RAlt down}{vk56}{RAlt up}{vk47}{RAlt down}{vk56}{RAlt up}{vk48}{RAlt down}{vk56}{RAlt up}{vk4b}{RAlt down}{vk56}{RAlt up}{vk4c}{RAlt down}{vk56}{RAlt up}{vk4e}{RAlt down}{vk56}{RAlt up}{vk52}{RAlt down}{vk56}{RAlt up}{vk53}{RAlt down}{vk56}{RAlt up}{vk54}{Enter}
+Send, {RAlt down}{vk56}{RAlt up}+{vk43}{RAlt down}{vk56}{RAlt up}+{vk44}{RAlt down}{vk56}{RAlt up}+{vk45}{RAlt down}{vk56}{RAlt up}+{vk47}{RAlt down}{vk56}{RAlt up}+{vk48}{RAlt down}{vk56}{RAlt up}+{vk4b}{RAlt down}{vk56}{RAlt up}+{vk4c}{RAlt down}{vk56}{RAlt up}+{vk4e}{RAlt down}{vk56}{RAlt up}+{vk52}{RAlt down}{vk56}{RAlt up}+{vk53}{RAlt down}{vk56}{RAlt up}+{vk54}{Enter}
 
 ; ogonek
-Send, ^!{vkDE}{vk41}^!{vkDE}{vk45}^!{vkDE}{vk49}^!{vkDE}{vk4f}^!{vkDE}{vk55}{Enter}
-Send, ^!{vkDE}+{vk41}^!{vkDE}+{vk45}^!{vkDE}+{vk49}^!{vkDE}+{vk4f}^!{vkDE}+{vk55}{Enter}
+Send, {RAlt down}{vkDE}{RAlt up}{vk41}{RAlt down}{vkDE}{RAlt up}{vk45}{RAlt down}{vkDE}{RAlt up}{vk49}{RAlt down}{vkDE}{RAlt up}{vk4f}{RAlt down}{vkDE}{RAlt up}{vk55}{Enter}
+Send, {RAlt down}{vkDE}{RAlt up}+{vk41}{RAlt down}{vkDE}{RAlt up}+{vk45}{RAlt down}{vkDE}{RAlt up}+{vk49}{RAlt down}{vkDE}{RAlt up}+{vk4f}{RAlt down}{vkDE}{RAlt up}+{vk55}{Enter}
 
 ; macron
-Send, ^!{vk37}{vk41}^!{vk37}{vk45}^!{vk37}{vk47}^!{vk37}{vk49}^!{vk37}{vk4f}^!{vk37}{vk55}^!{vk37}{vk59}^!{vk37}^!{vk41}{Enter}
-Send, ^!{vk37}+{vk41}^!{vk37}+{vk45}^!{vk37}+{vk47}^!{vk37}+{vk49}^!{vk37}+{vk4f}^!{vk37}+{vk55}^!{vk37}+{vk59}^!{vk37}^!+{vk41}{Enter}
+Send, {RAlt down}{vk37}{RAlt up}{vk41}{RAlt down}{vk37}{RAlt up}{vk45}{RAlt down}{vk37}{RAlt up}{vk47}{RAlt down}{vk37}{RAlt up}{vk49}{RAlt down}{vk37}{RAlt up}{vk4f}{RAlt down}{vk37}{RAlt up}{vk55}{RAlt down}{vk37}{RAlt up}{vk59}{RAlt down}{vk37}{RAlt up}{RAlt down}{vk41}{RAlt up}{Enter}
+Send, {RAlt down}{vk37}{RAlt up}+{vk41}{RAlt down}{vk37}{RAlt up}+{vk45}{RAlt down}{vk37}{RAlt up}+{vk47}{RAlt down}{vk37}{RAlt up}+{vk49}{RAlt down}{vk37}{RAlt up}+{vk4f}{RAlt down}{vk37}{RAlt up}+{vk55}{RAlt down}{vk37}{RAlt up}+{vk59}{RAlt down}{vk37}{RAlt up}{RAlt down}+{vk41}{RAlt up}{Enter}
 
 ; macron below
-Send, ^!+{vk48}{vk42}^!+{vk48}{vk44}^!+{vk48}{vk48}^!+{vk48}{vk4b}^!+{vk48}{vk4c}^!+{vk48}{vk4e}^!+{vk48}{vk52}^!+{vk48}{vk54}^!+{vk48}{vk5a}{Enter}
-Send, ^!+{vk48}+{vk42}^!+{vk48}+{vk44}^!+{vk48}+{vk4b}^!+{vk48}+{vk4c}^!+{vk48}+{vk4e}^!+{vk48}+{vk52}^!+{vk48}+{vk54}^!+{vk48}+{vk5a}{Enter}
+Send, {RAlt down}+{vk48}{RAlt up}{vk42}{RAlt down}+{vk48}{RAlt up}{vk44}{RAlt down}+{vk48}{RAlt up}{vk48}{RAlt down}+{vk48}{RAlt up}{vk4b}{RAlt down}+{vk48}{RAlt up}{vk4c}{RAlt down}+{vk48}{RAlt up}{vk4e}{RAlt down}+{vk48}{RAlt up}{vk52}{RAlt down}+{vk48}{RAlt up}{vk54}{RAlt down}+{vk48}{RAlt up}{vk5a}{Enter}
+Send, {RAlt down}+{vk48}{RAlt up}+{vk42}{RAlt down}+{vk48}{RAlt up}+{vk44}{RAlt down}+{vk48}{RAlt up}+{vk4b}{RAlt down}+{vk48}{RAlt up}+{vk4c}{RAlt down}+{vk48}{RAlt up}+{vk4e}{RAlt down}+{vk48}{RAlt up}+{vk52}{RAlt down}+{vk48}{RAlt up}+{vk54}{RAlt down}+{vk48}{RAlt up}+{vk5a}{Enter}
 
 ; ring above
-Send, ^!+{vkDB}{vk41}^!+{vkDB}{vk55}^!+{vkDB}{vk57}^!+{vkDB}{vk59}{Enter}
-Send, ^!+{vkDB}+{vk41}^!+{vkDB}+{vk55}{Enter}
+Send, {RAlt down}+{vkDB}{RAlt up}{vk41}{RAlt down}+{vkDB}{RAlt up}{vk55}{RAlt down}+{vkDB}{RAlt up}{vk57}{RAlt down}+{vkDB}{RAlt up}{vk59}{Enter}
+Send, {RAlt down}+{vkDB}{RAlt up}+{vk41}{RAlt down}+{vkDB}{RAlt up}+{vk55}{Enter}
 
 ; caron
-Send, ^!{vkDD}{vk41}^!{vkDD}{vk43}^!{vkDD}{vk44}^!{vkDD}{vk45}^!{vkDD}{vk47}^!{vkDD}{vk48}^!{vkDD}{vk49}^!{vkDD}{vk4a}^!{vkDD}{vk4b}^!{vkDD}{vk4c}^!{vkDD}{vk4e}^!{vkDD}{vk4f}^!{vkDD}{vk52}^!{vkDD}{vk53}^!{vkDD}{vk54}^!{vkDD}{vk55}^!{vkDD}{vk5a}^!{vkDD}^!{vk57}{Enter}
-Send, ^!{vkDD}+{vk41}^!{vkDD}+{vk43}^!{vkDD}+{vk44}^!{vkDD}+{vk45}^!{vkDD}+{vk47}^!{vkDD}+{vk48}^!{vkDD}+{vk49}^!{vkDD}+{vk4b}^!{vkDD}+{vk4c}^!{vkDD}+{vk4e}^!{vkDD}+{vk4f}^!{vkDD}+{vk52}^!{vkDD}+{vk53}^!{vkDD}+{vk54}^!{vkDD}+{vk55}^!{vkDD}+{vk5a}^!{vkDD}^!+{vk57}{Enter}
+Send, {RAlt down}{vkDD}{RAlt up}{vk41}{RAlt down}{vkDD}{RAlt up}{vk43}{RAlt down}{vkDD}{RAlt up}{vk44}{RAlt down}{vkDD}{RAlt up}{vk45}{RAlt down}{vkDD}{RAlt up}{vk47}{RAlt down}{vkDD}{RAlt up}{vk48}{RAlt down}{vkDD}{RAlt up}{vk49}{RAlt down}{vkDD}{RAlt up}{vk4a}{RAlt down}{vkDD}{RAlt up}{vk4b}{RAlt down}{vkDD}{RAlt up}{vk4c}{RAlt down}{vkDD}{RAlt up}{vk4e}{RAlt down}{vkDD}{RAlt up}{vk4f}{RAlt down}{vkDD}{RAlt up}{vk52}{RAlt down}{vkDD}{RAlt up}{vk53}{RAlt down}{vkDD}{RAlt up}{vk54}{RAlt down}{vkDD}{RAlt up}{vk55}{RAlt down}{vkDD}{RAlt up}{vk5a}{RAlt down}{vkDD}{RAlt up}{RAlt down}{vk57}{RAlt up}{Enter}
+Send, {RAlt down}{vkDD}{RAlt up}+{vk41}{RAlt down}{vkDD}{RAlt up}+{vk43}{RAlt down}{vkDD}{RAlt up}+{vk44}{RAlt down}{vkDD}{RAlt up}+{vk45}{RAlt down}{vkDD}{RAlt up}+{vk47}{RAlt down}{vkDD}{RAlt up}+{vk48}{RAlt down}{vkDD}{RAlt up}+{vk49}{RAlt down}{vkDD}{RAlt up}+{vk4b}{RAlt down}{vkDD}{RAlt up}+{vk4c}{RAlt down}{vkDD}{RAlt up}+{vk4e}{RAlt down}{vkDD}{RAlt up}+{vk4f}{RAlt down}{vkDD}{RAlt up}+{vk52}{RAlt down}{vkDD}{RAlt up}+{vk53}{RAlt down}{vkDD}{RAlt up}+{vk54}{RAlt down}{vkDD}{RAlt up}+{vk55}{RAlt down}{vkDD}{RAlt up}+{vk5a}{RAlt down}{vkDD}{RAlt up}{RAlt down}+{vk57}{RAlt up}{Enter}
 
 ; double acute accent
-Send, ^!+{vk35}{vk4f}^!+{vk35}{vk55}{Enter}
-Send, ^!+{vk35}+{vk4f}^!+{vk35}+{vk55}{Enter}
+Send, {RAlt down}+{vk35}{RAlt up}{vk4f}{RAlt down}+{vk35}{RAlt up}{vk55}{Enter}
+Send, {RAlt down}+{vk35}{RAlt up}+{vk4f}{RAlt down}+{vk35}{RAlt up}+{vk55}{Enter}
 
 ; double grave accent
-Send, ^!+{vk36}{vk41}^!+{vk36}{vk45}^!+{vk36}{vk49}^!+{vk36}{vk4f}^!+{vk36}{vk52}^!+{vk36}{vk55}{Enter}
-Send, ^!+{vk36}+{vk41}^!+{vk36}+{vk45}^!+{vk36}+{vk49}^!+{vk36}+{vk4f}^!+{vk36}+{vk52}^!+{vk36}+{vk55}{Enter}
+Send, {RAlt down}+{vk36}{RAlt up}{vk41}{RAlt down}+{vk36}{RAlt up}{vk45}{RAlt down}+{vk36}{RAlt up}{vk49}{RAlt down}+{vk36}{RAlt up}{vk4f}{RAlt down}+{vk36}{RAlt up}{vk52}{RAlt down}+{vk36}{RAlt up}{vk55}{Enter}
+Send, {RAlt down}+{vk36}{RAlt up}+{vk41}{RAlt down}+{vk36}{RAlt up}+{vk45}{RAlt down}+{vk36}{RAlt up}+{vk49}{RAlt down}+{vk36}{RAlt up}+{vk4f}{RAlt down}+{vk36}{RAlt up}+{vk52}{RAlt down}+{vk36}{RAlt up}+{vk55}{Enter}
 
 ; dot above
-Send, ^!{vk49}{vk41}^!{vk49}{vk42}^!{vk49}{vk43}^!{vk49}{vk44}^!{vk49}{vk45}^!{vk49}{vk46}^!{vk49}{vk47}^!{vk49}{vk48}^!{vk49}{vk49}^!{vk49}{vk4c}^!{vk49}{vk4d}^!{vk49}{vk4e}^!{vk49}{vk4f}^!{vk49}{vk50}^!{vk49}{vk52}^!{vk49}{vk53}^!{vk49}{vk54}^!{vk49}{vk57}^!{vk49}{vk58}^!{vk49}{vk59}^!{vk49}{vk5a}^!{vk49}^!{vk48}{Enter}
-Send, ^!{vk49}+{vk41}^!{vk49}+{vk42}^!{vk49}+{vk43}^!{vk49}+{vk44}^!{vk49}+{vk45}^!{vk49}+{vk46}^!{vk49}+{vk47}^!{vk49}+{vk48}^!{vk49}+{vk49}^!{vk49}+{vk4c}^!{vk49}+{vk4d}^!{vk49}+{vk4e}^!{vk49}+{vk4f}^!{vk49}+{vk50}^!{vk49}+{vk52}^!{vk49}+{vk53}^!{vk49}+{vk54}^!{vk49}+{vk57}^!{vk49}+{vk58}^!{vk49}+{vk59}^!{vk49}+{vk5a}{Enter}
+Send, {RAlt down}{vk49}{RAlt up}{vk41}{RAlt down}{vk49}{RAlt up}{vk42}{RAlt down}{vk49}{RAlt up}{vk43}{RAlt down}{vk49}{RAlt up}{vk44}{RAlt down}{vk49}{RAlt up}{vk45}{RAlt down}{vk49}{RAlt up}{vk46}{RAlt down}{vk49}{RAlt up}{vk47}{RAlt down}{vk49}{RAlt up}{vk48}{RAlt down}{vk49}{RAlt up}{vk49}{RAlt down}{vk49}{RAlt up}{vk4c}{RAlt down}{vk49}{RAlt up}{vk4d}{RAlt down}{vk49}{RAlt up}{vk4e}{RAlt down}{vk49}{RAlt up}{vk4f}{RAlt down}{vk49}{RAlt up}{vk50}{RAlt down}{vk49}{RAlt up}{vk52}{RAlt down}{vk49}{RAlt up}{vk53}{RAlt down}{vk49}{RAlt up}{vk54}{RAlt down}{vk49}{RAlt up}{vk57}{RAlt down}{vk49}{RAlt up}{vk58}{RAlt down}{vk49}{RAlt up}{vk59}{RAlt down}{vk49}{RAlt up}{vk5a}{RAlt down}{vk49}{RAlt up}{RAlt down}{vk48}{RAlt up}{Enter}
+Send, {RAlt down}{vk49}{RAlt up}+{vk41}{RAlt down}{vk49}{RAlt up}+{vk42}{RAlt down}{vk49}{RAlt up}+{vk43}{RAlt down}{vk49}{RAlt up}+{vk44}{RAlt down}{vk49}{RAlt up}+{vk45}{RAlt down}{vk49}{RAlt up}+{vk46}{RAlt down}{vk49}{RAlt up}+{vk47}{RAlt down}{vk49}{RAlt up}+{vk48}{RAlt down}{vk49}{RAlt up}+{vk49}{RAlt down}{vk49}{RAlt up}+{vk4c}{RAlt down}{vk49}{RAlt up}+{vk4d}{RAlt down}{vk49}{RAlt up}+{vk4e}{RAlt down}{vk49}{RAlt up}+{vk4f}{RAlt down}{vk49}{RAlt up}+{vk50}{RAlt down}{vk49}{RAlt up}+{vk52}{RAlt down}{vk49}{RAlt up}+{vk53}{RAlt down}{vk49}{RAlt up}+{vk54}{RAlt down}{vk49}{RAlt up}+{vk57}{RAlt down}{vk49}{RAlt up}+{vk58}{RAlt down}{vk49}{RAlt up}+{vk59}{RAlt down}{vk49}{RAlt up}+{vk5a}{Enter}
 
 ; dot below
-Send, ^!+{vk49}{vk41}^!+{vk49}{vk42}^!+{vk49}{vk44}^!+{vk49}{vk45}^!+{vk49}{vk48}^!+{vk49}{vk49}^!+{vk49}{vk4b}^!+{vk49}{vk4c}^!+{vk49}{vk4d}^!+{vk49}{vk4e}^!+{vk49}{vk4f}^!+{vk49}{vk52}^!+{vk49}{vk53}^!+{vk49}{vk54}^!+{vk49}{vk55}^!+{vk49}{vk56}^!+{vk49}{vk57}^!+{vk49}{vk59}^!+{vk49}{vk5a}{Enter}
-Send, ^!+{vk49}+{vk41}^!+{vk49}+{vk42}^!+{vk49}+{vk44}^!+{vk49}+{vk45}^!+{vk49}+{vk48}^!+{vk49}+{vk49}^!+{vk49}+{vk4b}^!+{vk49}+{vk4c}^!+{vk49}+{vk4d}^!+{vk49}+{vk4e}^!+{vk49}+{vk4f}^!+{vk49}+{vk52}^!+{vk49}+{vk53}^!+{vk49}+{vk54}^!+{vk49}+{vk55}^!+{vk49}+{vk56}^!+{vk49}+{vk57}^!+{vk49}+{vk59}^!+{vk49}+{vk5a}{Enter}
+Send, {RAlt down}+{vk49}{RAlt up}{vk41}{RAlt down}+{vk49}{RAlt up}{vk42}{RAlt down}+{vk49}{RAlt up}{vk44}{RAlt down}+{vk49}{RAlt up}{vk45}{RAlt down}+{vk49}{RAlt up}{vk48}{RAlt down}+{vk49}{RAlt up}{vk49}{RAlt down}+{vk49}{RAlt up}{vk4b}{RAlt down}+{vk49}{RAlt up}{vk4c}{RAlt down}+{vk49}{RAlt up}{vk4d}{RAlt down}+{vk49}{RAlt up}{vk4e}{RAlt down}+{vk49}{RAlt up}{vk4f}{RAlt down}+{vk49}{RAlt up}{vk52}{RAlt down}+{vk49}{RAlt up}{vk53}{RAlt down}+{vk49}{RAlt up}{vk54}{RAlt down}+{vk49}{RAlt up}{vk55}{RAlt down}+{vk49}{RAlt up}{vk56}{RAlt down}+{vk49}{RAlt up}{vk57}{RAlt down}+{vk49}{RAlt up}{vk59}{RAlt down}+{vk49}{RAlt up}{vk5a}{Enter}
+Send, {RAlt down}+{vk49}{RAlt up}+{vk41}{RAlt down}+{vk49}{RAlt up}+{vk42}{RAlt down}+{vk49}{RAlt up}+{vk44}{RAlt down}+{vk49}{RAlt up}+{vk45}{RAlt down}+{vk49}{RAlt up}+{vk48}{RAlt down}+{vk49}{RAlt up}+{vk49}{RAlt down}+{vk49}{RAlt up}+{vk4b}{RAlt down}+{vk49}{RAlt up}+{vk4c}{RAlt down}+{vk49}{RAlt up}+{vk4d}{RAlt down}+{vk49}{RAlt up}+{vk4e}{RAlt down}+{vk49}{RAlt up}+{vk4f}{RAlt down}+{vk49}{RAlt up}+{vk52}{RAlt down}+{vk49}{RAlt up}+{vk53}{RAlt down}+{vk49}{RAlt up}+{vk54}{RAlt down}+{vk49}{RAlt up}+{vk55}{RAlt down}+{vk49}{RAlt up}+{vk56}{RAlt down}+{vk49}{RAlt up}+{vk57}{RAlt down}+{vk49}{RAlt up}+{vk59}{RAlt down}+{vk49}{RAlt up}+{vk5a}{Enter}
 
 ; inverted breve
-Send, ^!+{vkDE}{vk41}^!+{vkDE}{vk45}^!+{vkDE}{vk49}^!+{vkDE}{vk4f}^!+{vkDE}{vk52}^!+{vkDE}{vk55}{Enter}
-Send, ^!+{vkDE}+{vk41}^!+{vkDE}+{vk45}^!+{vkDE}+{vk49}^!+{vkDE}+{vk4f}^!+{vkDE}+{vk52}^!+{vkDE}+{vk55}{Enter}
+Send, {RAlt down}+{vkDE}{RAlt up}{vk41}{RAlt down}+{vkDE}{RAlt up}{vk45}{RAlt down}+{vkDE}{RAlt up}{vk49}{RAlt down}+{vkDE}{RAlt up}{vk4f}{RAlt down}+{vkDE}{RAlt up}{vk52}{RAlt down}+{vkDE}{RAlt up}{vk55}{Enter}
+Send, {RAlt down}+{vkDE}{RAlt up}+{vk41}{RAlt down}+{vkDE}{RAlt up}+{vk45}{RAlt down}+{vkDE}{RAlt up}+{vk49}{RAlt down}+{vkDE}{RAlt up}+{vk4f}{RAlt down}+{vkDE}{RAlt up}+{vk52}{RAlt down}+{vkDE}{RAlt up}+{vk55}{Enter}
 
 ; breve
-Send, ^!{vkDE}{vk41}^!{vkDE}{vk45}^!{vkDE}{vk47}^!{vkDE}{vk49}^!{vkDE}{vk4f}^!{vkDE}{vk55}{Enter}
-Send, ^!{vkDE}+{vk41}^!{vkDE}+{vk45}^!{vkDE}+{vk47}^!{vkDE}+{vk49}^!{vkDE}+{vk4f}^!{vkDE}+{vk55}{Enter}
+Send, {RAlt down}{vkDE}{RAlt up}{vk41}{RAlt down}{vkDE}{RAlt up}{vk45}{RAlt down}{vkDE}{RAlt up}{vk47}{RAlt down}{vkDE}{RAlt up}{vk49}{RAlt down}{vkDE}{RAlt up}{vk4f}{RAlt down}{vkDE}{RAlt up}{vk55}{Enter}
+Send, {RAlt down}{vkDE}{RAlt up}+{vk41}{RAlt down}{vkDE}{RAlt up}+{vk45}{RAlt down}{vkDE}{RAlt up}+{vk47}{RAlt down}{vkDE}{RAlt up}+{vk49}{RAlt down}{vkDE}{RAlt up}+{vk4f}{RAlt down}{vkDE}{RAlt up}+{vk55}{Enter}
 
 ; short stroke overlay
-Send, ^!{vk42}{vk42}^!{vk42}{vk44}^!{vk42}{vk47}^!{vk42}{vk48}^!{vk42}{vk4a}^!{vk42}{vk4c}^!{vk42}{vk52}^!{vk42}{vk54}^!{vk42}{vk59}^!{vk42}{vk5a}{Enter}
-Send, ^!{vk42}+{vk42}^!{vk42}+{vk44}^!{vk42}+{vk47}^!{vk42}+{vk48}^!{vk42}+{vk49}^!{vk42}+{vk4a}^!{vk42}+{vk4c}^!{vk42}+{vk52}^!{vk42}+{vk54}^!{vk42}+{vk55}^!{vk42}+{vk59}^!{vk42}+{vk5a}{Enter}
+Send, {RAlt down}{vk42}{RAlt up}{vk42}{RAlt down}{vk42}{RAlt up}{vk44}{RAlt down}{vk42}{RAlt up}{vk47}{RAlt down}{vk42}{RAlt up}{vk48}{RAlt down}{vk42}{RAlt up}{vk4a}{RAlt down}{vk42}{RAlt up}{vk4c}{RAlt down}{vk42}{RAlt up}{vk52}{RAlt down}{vk42}{RAlt up}{vk54}{RAlt down}{vk42}{RAlt up}{vk59}{RAlt down}{vk42}{RAlt up}{vk5a}{Enter}
+Send, {RAlt down}{vk42}{RAlt up}+{vk42}{RAlt down}{vk42}{RAlt up}+{vk44}{RAlt down}{vk42}{RAlt up}+{vk47}{RAlt down}{vk42}{RAlt up}+{vk48}{RAlt down}{vk42}{RAlt up}+{vk49}{RAlt down}{vk42}{RAlt up}+{vk4a}{RAlt down}{vk42}{RAlt up}+{vk4c}{RAlt down}{vk42}{RAlt up}+{vk52}{RAlt down}{vk42}{RAlt up}+{vk54}{RAlt down}{vk42}{RAlt up}+{vk55}{RAlt down}{vk42}{RAlt up}+{vk59}{RAlt down}{vk42}{RAlt up}+{vk5a}{Enter}
 
 ; short solidus overlay
-Send, ^!{vk4B}{vk43}^!{vk4B}{vk45}^!{vk4B}{vk4c}^!{vk4B}{vk4f}^!{vk4B}^!{vk48}{Enter}
-Send, ^!{vk4B}+{vk41}^!{vk4B}+{vk43}^!{vk4B}+{vk45}^!{vk4B}+{vk4c}^!{vk4B}+{vk4f}^!{vk4B}+{vk54}{Enter}
+Send, {RAlt down}{vk4B}{RAlt up}{vk43}{RAlt down}{vk4B}{RAlt up}{vk45}{RAlt down}{vk4B}{RAlt up}{vk4c}{RAlt down}{vk4B}{RAlt up}{vk4f}{RAlt down}{vk4B}{RAlt up}{RAlt down}{vk48}{RAlt up}{Enter}
+Send, {RAlt down}{vk4B}{RAlt up}+{vk41}{RAlt down}{vk4B}{RAlt up}+{vk43}{RAlt down}{vk4B}{RAlt up}+{vk45}{RAlt down}{vk4B}{RAlt up}+{vk4c}{RAlt down}{vk4B}{RAlt up}+{vk4f}{RAlt down}{vk4B}{RAlt up}+{vk54}{Enter}
 
 ; comma below
-Send, ^!+{vkBC}{vk53}^!+{vkBC}{vk54}{Enter}
-Send, ^!+{vkBC}+{vk53}^!+{vkBC}+{vk54}{Enter}
+Send, {RAlt down}+{vkBC}{RAlt up}{vk53}{RAlt down}+{vkBC}{RAlt up}{vk54}{Enter}
+Send, {RAlt down}+{vkBC}{RAlt up}+{vk53}{RAlt down}+{vkBC}{RAlt up}+{vk54}{Enter}
 
 
 ; =========================================
@@ -164,12 +164,12 @@ Send, ^!+{vkBC}+{vk53}^!+{vkBC}+{vk54}{Enter}
 ; =========================================
 
 ; tilde-based math symbols
-Send, ^!{vk4E}{vkBD}{Enter}
-Send, ^!{vk4E}{vkE2}^!{vk4E}+{vkE2}^!{vk4E}+{vkDF}{Enter}
+Send, {RAlt down}{vk4E}{RAlt up}{vkBD}{Enter}
+Send, {RAlt down}{vk4E}{RAlt up}{vkE2}{RAlt down}{vk4E}{RAlt up}+{vkE2}{RAlt down}{vk4E}{RAlt up}+{vkDF}{Enter}
 
 ; stroke-based math symbols
-Send, ^!{vk4B}+{vkDF}^!{vk4B}^!{vkDF}{Enter} 
-Send, ^!{vk4B}{vkE2}^!{vk4B}+{vkE2}^!{vk4B}^!{vkE2}^!{vk4B}^!+{vkE2}{Enter}
+Send, {RAlt down}{vk4B}{RAlt up}+{vkDF}{RAlt down}{vk4B}{RAlt up}{RAlt down}{vkDF}{RAlt up}{Enter} 
+Send, {RAlt down}{vk4B}{RAlt up}{vkE2}{RAlt down}{vk4B}{RAlt up}+{vkE2}{RAlt down}{vk4B}{RAlt up}{RAlt down}{vkE2}{RAlt up}{RAlt down}{vk4B}{RAlt up}{RAlt down}+{vkE2}{RAlt up}{Enter}
 
 
 ; =========================================
@@ -177,7 +177,7 @@ Send, ^!{vk4B}{vkE2}^!{vk4B}+{vkE2}^!{vk4B}^!{vkE2}^!{vk4B}^!+{vkE2}{Enter}
 ; =========================================
 
 ; caron-based subscript symbols
-Send, ^!{vkDD}+{vk31}^!{vkDD}+{vk32}^!{vkDD}+{vk33}^!{vkDD}+{vk34}^!{vkDD}+{vk35}^!{vkDD}+{vk36}^!{vkDD}+{vk37}^!{vkDD}+{vk38}^!{vkDD}+{vk39}^!{vkDD}+{vk30}{Enter}
+Send, {RAlt down}{vkDD}{RAlt up}+{vk31}{RAlt down}{vkDD}{RAlt up}+{vk32}{RAlt down}{vkDD}{RAlt up}+{vk33}{RAlt down}{vkDD}{RAlt up}+{vk34}{RAlt down}{vkDD}{RAlt up}+{vk35}{RAlt down}{vkDD}{RAlt up}+{vk36}{RAlt down}{vkDD}{RAlt up}+{vk37}{RAlt down}{vkDD}{RAlt up}+{vk38}{RAlt down}{vkDD}{RAlt up}+{vk39}{RAlt down}{vkDD}{RAlt up}+{vk30}{Enter}
 
 ; circomflex-based superscript symbols
 Send, {vkDD}+{vk31}{vkDD}+{vk32}{vkDD}+{vk33}{vkDD}+{vk34}{vkDD}+{vk35}{vkDD}+{vk36}{vkDD}+{vk37}{vkDD}+{vk38}{vkDD}+{vk39}{vkDD}+{vk30}{Enter}
@@ -188,23 +188,23 @@ Send, {vkDD}+{vk31}{vkDD}+{vk32}{vkDD}+{vk33}{vkDD}+{vk34}{vkDD}+{vk35}{vkDD}+{v
 ; =========================================
 
 ; base
-Send, ^!{vk46}{vk45}^!{vk46}{vk52}^!{vk46}{vk54}^!{vk46}{vk59}^!{vk46}{vk50}{Enter}
-Send, ^!{vk46}{vk53}^!{vk46}{vk44}^!{vk46}{vk46}^!{vk46}{vk47}^!{vk46}{vk48}^!{vk46}{vk4B}^!{vk46}{vk4C}^!{vk46}{vk4D}{Enter}
-Send, ^!{vk46}{vk57}^!{vk46}{vk43}^!{vk46}{vk4E}{Enter}
+Send, {RAlt down}{vk46}{RAlt up}{vk45}{RAlt down}{vk46}{RAlt up}{vk52}{RAlt down}{vk46}{RAlt up}{vk54}{RAlt down}{vk46}{RAlt up}{vk59}{RAlt down}{vk46}{RAlt up}{vk50}{Enter}
+Send, {RAlt down}{vk46}{RAlt up}{vk53}{RAlt down}{vk46}{RAlt up}{vk44}{RAlt down}{vk46}{RAlt up}{vk46}{RAlt down}{vk46}{RAlt up}{vk47}{RAlt down}{vk46}{RAlt up}{vk48}{RAlt down}{vk46}{RAlt up}{vk4B}{RAlt down}{vk46}{RAlt up}{vk4C}{RAlt down}{vk46}{RAlt up}{vk4D}{Enter}
+Send, {RAlt down}{vk46}{RAlt up}{vk57}{RAlt down}{vk46}{RAlt up}{vk43}{RAlt down}{vk46}{RAlt up}{vk4E}{Enter}
 
 ; Shift
-Send, ^!{vk46}+{vk41}^!{vk46}+{vk52}^!{vk46}+{vk54}^!{vk46}+{vk50}{Enter}
-Send, ^!{vk46}+{vk53}^!{vk46}+{vk44}^!{vk46}+{vk46}^!{vk46}+{vk4C}^!{vk46}+{vk4D}{Enter}
-Send, ^!{vk46}+{vk43}{Enter}
+Send, {RAlt down}{vk46}{RAlt up}+{vk41}{RAlt down}{vk46}{RAlt up}+{vk52}{RAlt down}{vk46}{RAlt up}+{vk54}{RAlt down}{vk46}{RAlt up}+{vk50}{Enter}
+Send, {RAlt down}{vk46}{RAlt up}+{vk53}{RAlt down}{vk46}{RAlt up}+{vk44}{RAlt down}{vk46}{RAlt up}+{vk46}{RAlt down}{vk46}{RAlt up}+{vk4C}{RAlt down}{vk46}{RAlt up}+{vk4D}{Enter}
+Send, {RAlt down}{vk46}{RAlt up}+{vk43}{Enter}
 
 ; AltGr
-Send, ^!{vk46}^!{vk52}^!{vk46}^!{vk50}{Enter}
-Send, ^!{vk46}^!{vk4C}^!{vk46}^!{vk4D}{Enter}
-Send, ^!{vk46}^!{vk43}{Enter}
+Send, {RAlt down}{vk46}{RAlt up}{RAlt down}{vk52}{RAlt up}{RAlt down}{vk46}{RAlt up}{RAlt down}{vk50}{RAlt up}{Enter}
+Send, {RAlt down}{vk46}{RAlt up}{RAlt down}{vk4C}{RAlt up}{RAlt down}{vk46}{RAlt up}{RAlt down}{vk4D}{RAlt up}{Enter}
+Send, {RAlt down}{vk46}{RAlt up}{RAlt down}{vk43}{RAlt up}{Enter}
 
 ; Shift+AltGr
-Send, ^!{vk46}^!+{vk45}{Enter}
-Send, ^!{vk46}^!+{vk43}{Enter}
+Send, {RAlt down}{vk46}{RAlt up}{RAlt down}+{vk45}{RAlt up}{Enter}
+Send, {RAlt down}{vk46}{RAlt up}{RAlt down}+{vk43}{RAlt up}{Enter}
 
 
 ; =========================================
@@ -212,17 +212,17 @@ Send, ^!{vk46}^!+{vk43}{Enter}
 ; =========================================
 
 ; base
-Send, ^!{vk47}{vk41}^!{vk47}{vk5A}^!{vk47}{vk45}^!{vk47}{vk52}^!{vk47}{vk55}^!{vk47}{vk49}^!{vk47}{vk4F}^!{vk47}{vk50}{Enter}
-Send, ^!{vk47}{vk53}^!{vk47}{vk44}^!{vk47}{vk47}^!{vk47}{vk48}^!{vk47}{vk4A}^!{vk47}{vk4B}^!{vk47}{vk4C}^!{vk47}{vk4D}{Enter}
-Send, ^!{vk47}{vk57}^!{vk47}{vk42}^!{vk47}{vk4E}{Enter}
+Send, {RAlt down}{vk47}{RAlt up}{vk41}{RAlt down}{vk47}{RAlt up}{vk5A}{RAlt down}{vk47}{RAlt up}{vk45}{RAlt down}{vk47}{RAlt up}{vk52}{RAlt down}{vk47}{RAlt up}{vk55}{RAlt down}{vk47}{RAlt up}{vk49}{RAlt down}{vk47}{RAlt up}{vk4F}{RAlt down}{vk47}{RAlt up}{vk50}{Enter}
+Send, {RAlt down}{vk47}{RAlt up}{vk53}{RAlt down}{vk47}{RAlt up}{vk44}{RAlt down}{vk47}{RAlt up}{vk47}{RAlt down}{vk47}{RAlt up}{vk48}{RAlt down}{vk47}{RAlt up}{vk4A}{RAlt down}{vk47}{RAlt up}{vk4B}{RAlt down}{vk47}{RAlt up}{vk4C}{RAlt down}{vk47}{RAlt up}{vk4D}{Enter}
+Send, {RAlt down}{vk47}{RAlt up}{vk57}{RAlt down}{vk47}{RAlt up}{vk42}{RAlt down}{vk47}{RAlt up}{vk4E}{Enter}
 
 ; Shift
-Send, ^!{vk47}+{vk41}^!{vk47}+{vk5A}^!{vk47}+{vk45}^!{vk47}+{vk52}^!{vk47}+{vk55}^!{vk47}+{vk49}^!{vk47}+{vk4F}^!{vk47}+{vk50}{Enter}
-Send, ^!{vk47}+{vk53}^!{vk47}+{vk44}^!{vk47}+{vk47}^!{vk47}+{vk48}^!{vk47}+{vk4A}^!{vk47}+{vk4B}^!{vk47}+{vk4C}^!{vk47}+{vk4D}{Enter}
-Send, ^!{vk47}+{vk42}^!{vk47}+{vk4E}{Enter}
+Send, {RAlt down}{vk47}{RAlt up}+{vk41}{RAlt down}{vk47}{RAlt up}+{vk5A}{RAlt down}{vk47}{RAlt up}+{vk45}{RAlt down}{vk47}{RAlt up}+{vk52}{RAlt down}{vk47}{RAlt up}+{vk55}{RAlt down}{vk47}{RAlt up}+{vk49}{RAlt down}{vk47}{RAlt up}+{vk4F}{RAlt down}{vk47}{RAlt up}+{vk50}{Enter}
+Send, {RAlt down}{vk47}{RAlt up}+{vk53}{RAlt down}{vk47}{RAlt up}+{vk44}{RAlt down}{vk47}{RAlt up}+{vk47}{RAlt down}{vk47}{RAlt up}+{vk48}{RAlt down}{vk47}{RAlt up}+{vk4A}{RAlt down}{vk47}{RAlt up}+{vk4B}{RAlt down}{vk47}{RAlt up}+{vk4C}{RAlt down}{vk47}{RAlt up}+{vk4D}{Enter}
+Send, {RAlt down}{vk47}{RAlt up}+{vk42}{RAlt down}{vk47}{RAlt up}+{vk4E}{Enter}
 
 ; Micro sign
-Send, ^!{vk47}{vk20}{Enter}
+Send, {RAlt down}{vk47}{RAlt up}{vk20}{Enter}
 
 
 ; =========================================
@@ -230,15 +230,15 @@ Send, ^!{vk47}{vk20}{Enter}
 ; =========================================
 
 ; base
-Send, ^!{vk48}{vk37}^!{vk48}{vk38}^!{vk48}{vk39}^!{vk48}{vk30}^!{vk48}{vkDB}{Enter}
-Send, ^!{vk48}{vk41}^!{vk48}{vk45}^!{vk48}{vk54}^!{vk48}{vk49}^!{vk48}{vk4F}{Enter}
-Send, ^!{vk48}{vk53}^!{vk48}{vk44}^!{vk48}{vk47}^!{vk48}{vk4A}{Enter}
+Send, {RAlt down}{vk48}{RAlt up}{vk37}{RAlt down}{vk48}{RAlt up}{vk38}{RAlt down}{vk48}{RAlt up}{vk39}{RAlt down}{vk48}{RAlt up}{vk30}{RAlt down}{vk48}{RAlt up}{vkDB}{Enter}
+Send, {RAlt down}{vk48}{RAlt up}{vk41}{RAlt down}{vk48}{RAlt up}{vk45}{RAlt down}{vk48}{RAlt up}{vk54}{RAlt down}{vk48}{RAlt up}{vk49}{RAlt down}{vk48}{RAlt up}{vk4F}{Enter}
+Send, {RAlt down}{vk48}{RAlt up}{vk53}{RAlt down}{vk48}{RAlt up}{vk44}{RAlt down}{vk48}{RAlt up}{vk47}{RAlt down}{vk48}{RAlt up}{vk4A}{Enter}
 
 
 ; Shift
-Send, ^!{vk48}+{vk37}^!{vk48}+{vk38}^!{vk48}+{vk39}^!{vk48}+{vk30}{Enter}
-Send, ^!{vk48}+{vk45}^!{vk48}+{vk54}^!{vk48}+{vk49}{Enter}
-Send, ^!{vk48}+{vk44}^!{vk48}+{vk47}^!{vk48}+{vk4A}{Enter}
+Send, {RAlt down}{vk48}{RAlt up}+{vk37}{RAlt down}{vk48}{RAlt up}+{vk38}{RAlt down}{vk48}{RAlt up}+{vk39}{RAlt down}{vk48}{RAlt up}+{vk30}{Enter}
+Send, {RAlt down}{vk48}{RAlt up}+{vk45}{RAlt down}{vk48}{RAlt up}+{vk54}{RAlt down}{vk48}{RAlt up}+{vk49}{Enter}
+Send, {RAlt down}{vk48}{RAlt up}+{vk44}{RAlt down}{vk48}{RAlt up}+{vk47}{RAlt down}{vk48}{RAlt up}+{vk4A}{Enter}
 
 
 return

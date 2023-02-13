@@ -18,47 +18,47 @@
 ; =========================================
 
 ; acute accent
-Send, ^!{vk32}^!{vk43}^!{vk32}{vk34}{Enter}
-Send, ^!{vk32}^!+{vk43}^!{vk32}^!+{vk34}{Enter}
+Send, {RAlt down}{vk32}{RAlt up}{RAlt down}{vk43}{RAlt up}{RAlt down}{vk32}{RAlt up}{vk34}{Enter}
+Send, {RAlt down}{vk32}{RAlt up}{RAlt down}+{vk43}{RAlt up}{RAlt down}{vk32}{RAlt up}{RAlt down}+{vk34}{RAlt up}{Enter}
 
 ; grave accent
-Send, ^!{vk33}{vk34}{Enter}
-Send, ^!{vk33}^!+{vk34}{Enter}
+Send, {RAlt down}{vk33}{RAlt up}{vk34}{Enter}
+Send, {RAlt down}{vk33}{RAlt up}{RAlt down}+{vk34}{RAlt up}{Enter}
 
 ; circumflex accent
 Send, {vkDD}{vk31}{vkDD}{vk32}{vkDD}{vk33}{Enter}
-Send, {vkDD}^!+{vk31}{vkDD}^!+{vk32}{vkDD}^!+{vk33}{Enter}
+Send, {vkDD}{RAlt down}+{vk31}{RAlt up}{vkDD}{RAlt down}+{vk32}{RAlt up}{vkDD}{RAlt down}+{vk33}{RAlt up}{Enter}
 
 ; diaeresis
-Send, +{vkDD}^!{vk55}{Enter}
-Send, +{vkDD}^!+{vk55}{Enter}
+Send, +{vkDD}{RAlt down}{vk55}{RAlt up}{Enter}
+Send, +{vkDD}{RAlt down}+{vk55}{RAlt up}{Enter}
 
 ; tilde
-Send, ^!{vk4E}{vk34}{Enter}
-Send, ^!{vk4E}^!+{vk34}{Enter}
+Send, {RAlt down}{vk4E}{RAlt up}{vk34}{Enter}
+Send, {RAlt down}{vk4E}{RAlt up}{RAlt down}+{vk34}{RAlt up}{Enter}
 
 ; macron
-Send, ^!{vk37}{vk32}^!{vk37}{vk33}{Enter}
-Send, ^!{vk37}^!+{vk32}^!{vk37}^!+{vk33}{Enter}
+Send, {RAlt down}{vk37}{RAlt up}{vk32}{RAlt down}{vk37}{RAlt up}{vk33}{Enter}
+Send, {RAlt down}{vk37}{RAlt up}{RAlt down}+{vk32}{RAlt up}{RAlt down}{vk37}{RAlt up}{RAlt down}+{vk33}{RAlt up}{Enter}
 
 ; dot below
-Send, ^!+{vk49}{vk34}{Enter}
-Send, ^!+{vk49}^!+{vk34}{Enter}
+Send, {RAlt down}+{vk49}{RAlt up}{vk34}{Enter}
+Send, {RAlt down}+{vk49}{RAlt up}{RAlt down}+{vk34}{RAlt up}{Enter}
 
 ; breve
-Send, ^!{vkDE}{vk31}{Enter}
-Send, ^!{vkDE}^!+{vk31}{Enter}
+Send, {RAlt down}{vkDE}{RAlt up}{vk31}{Enter}
+Send, {RAlt down}{vkDE}{RAlt up}{RAlt down}+{vk31}{RAlt up}{Enter}
 
 ; inverted breve
-Send, ^!+{vkDE}{vk31}^!+{vkDE}{vk33}{Enter}
-Send, ^!+{vkDE}^!+{vk31}^!+{vkDE}^!+{vk33}{Enter}
+Send, {RAlt down}+{vkDE}{RAlt up}{vk31}{RAlt down}+{vkDE}{RAlt up}{vk33}{Enter}
+Send, {RAlt down}+{vkDE}{RAlt up}{RAlt down}+{vk31}{RAlt up}{RAlt down}+{vkDE}{RAlt up}{RAlt down}+{vk33}{RAlt up}{Enter}
 
 ; =========================================
 ; Currency Symbols Layer
 ; =========================================
 
 ; Bitcoin symbol
-Send, ^!{vk46}{vk42}{Enter}
+Send, {RAlt down}{vk46}{RAlt up}{vk42}{Enter}
 
 
 return
