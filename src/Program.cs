@@ -8,6 +8,9 @@ var compliance = new Compliance();
 
 var actual = args[0];
 var expected = "expected.txt";
+if (args.Length > 1)
+	expected = args[1];
+
 var output = "result.log";
 
 if (args.Length >= 2)
