@@ -203,7 +203,7 @@ Send, {RAlt down}{vk46}{RAlt up}{RAlt down}{vk4C}{RAlt up}{RAlt down}{vk46}{RAlt
 Send, {RAlt down}{vk46}{RAlt up}{RAlt down}{vk43}{RAlt up}{Enter}
 
 ; Shift+AltGr
-Send, {RAlt down}{vk46}{RAlt up}{RAlt down}+{vk45}{RAlt up}{Enter}
+Send, {RAlt down}{vk46}{RAlt up}{RAlt down}{vk46}{RAlt up}{Enter}
 Send, {RAlt down}{vk46}{RAlt up}{RAlt down}+{vk43}{RAlt up}{Enter}
 
 
