@@ -2,12 +2,12 @@
 azertyuiop-+
 qsdfghjklm/*
 <wxcvbn.,:;
- .
+ ,
 #1234567890 "
 AZERTYUIOP–±
 QSDFGHJKLM\½
 >WXCVBN?!…=
- .
+ ,
 §&[]_“”°
 æ£€®{}ùœ%−†
 θß$|∞÷×
@@ -22,12 +22,12 @@ QSDFGHJKLM\½
 AZERTYUIOP-+
 QSDFGHJKLM/*
 <WXCVBN.,:;
- .
+ ,
 #àéèê()‘’«»"
 azertyuiop–±
 qsdfghjklm\½
 >wxcvbn?!…=
- .
+ ,
 §&[]_“”°
 Æ£€®{}ÙŒ%−†
 ϴẞ$|∞÷×
