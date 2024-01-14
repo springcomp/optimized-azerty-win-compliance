@@ -12,53 +12,51 @@
 ;
 
 ^r::
+{
+	; =========================================
+	; latin characters with two diacritical marks
+	; =========================================
 
-; =========================================
-; latin characters with two diacritical marks
-; =========================================
+	; acute accent
+	SendInput "{RAlt down}{vk32}{RAlt up}{RAlt down}{vk43}{RAlt up}{RAlt down}{vk32}{RAlt up}{vk34}{Enter}"
+	SendInput "{RAlt down}{vk32}{RAlt up}{RAlt down}+{vk43}{RAlt up}{RAlt down}{vk32}{RAlt up}{RAlt down}+{vk34}{RAlt up}{Enter}"
 
-; acute accent
-Send, {RAlt down}{vk32}{RAlt up}{RAlt down}{vk43}{RAlt up}{RAlt down}{vk32}{RAlt up}{vk34}{Enter}
-Send, {RAlt down}{vk32}{RAlt up}{RAlt down}+{vk43}{RAlt up}{RAlt down}{vk32}{RAlt up}{RAlt down}+{vk34}{RAlt up}{Enter}
+	; grave accent
+	SendInput "{RAlt down}{vk33}{RAlt up}{vk34}{Enter}"
+	SendInput "{RAlt down}{vk33}{RAlt up}{RAlt down}+{vk34}{RAlt up}{Enter}"
 
-; grave accent
-Send, {RAlt down}{vk33}{RAlt up}{vk34}{Enter}
-Send, {RAlt down}{vk33}{RAlt up}{RAlt down}+{vk34}{RAlt up}{Enter}
+	; circumflex accent
+	SendInput "{vkDD}{vk31}{vkDD}{vk32}{vkDD}{vk33}{Enter}"
+	SendInput "{vkDD}{RAlt down}+{vk31}{RAlt up}{vkDD}{RAlt down}+{vk32}{RAlt up}{vkDD}{RAlt down}+{vk33}{RAlt up}{Enter}"
 
-; circumflex accent
-Send, {vkDD}{vk31}{vkDD}{vk32}{vkDD}{vk33}{Enter}
-Send, {vkDD}{RAlt down}+{vk31}{RAlt up}{vkDD}{RAlt down}+{vk32}{RAlt up}{vkDD}{RAlt down}+{vk33}{RAlt up}{Enter}
+	; diaeresis
+	SendInput "+{vkDD}{RAlt down}{vk55}{RAlt up}{Enter}"
+	SendInput "+{vkDD}{RAlt down}+{vk55}{RAlt up}{Enter}"
 
-; diaeresis
-Send, +{vkDD}{RAlt down}{vk55}{RAlt up}{Enter}
-Send, +{vkDD}{RAlt down}+{vk55}{RAlt up}{Enter}
+	; tilde
+	SendInput "{RAlt down}{vk4E}{RAlt up}{vk34}{Enter}"
+	SendInput "{RAlt down}{vk4E}{RAlt up}{RAlt down}+{vk34}{RAlt up}{Enter}"
 
-; tilde
-Send, {RAlt down}{vk4E}{RAlt up}{vk34}{Enter}
-Send, {RAlt down}{vk4E}{RAlt up}{RAlt down}+{vk34}{RAlt up}{Enter}
+	; macron
+	SendInput "{RAlt down}{vk37}{RAlt up}{vk32}{RAlt down}{vk37}{RAlt up}{vk33}{Enter}"
+	SendInput "{RAlt down}{vk37}{RAlt up}{RAlt down}+{vk32}{RAlt up}{RAlt down}{vk37}{RAlt up}{RAlt down}+{vk33}{RAlt up}{Enter}"
 
-; macron
-Send, {RAlt down}{vk37}{RAlt up}{vk32}{RAlt down}{vk37}{RAlt up}{vk33}{Enter}
-Send, {RAlt down}{vk37}{RAlt up}{RAlt down}+{vk32}{RAlt up}{RAlt down}{vk37}{RAlt up}{RAlt down}+{vk33}{RAlt up}{Enter}
+	; dot below
+	SendInput "{RAlt down}+{vk49}{RAlt up}{vk34}{Enter}"
+	SendInput "{RAlt down}+{vk49}{RAlt up}{RAlt down}+{vk34}{RAlt up}{Enter}"
 
-; dot below
-Send, {RAlt down}+{vk49}{RAlt up}{vk34}{Enter}
-Send, {RAlt down}+{vk49}{RAlt up}{RAlt down}+{vk34}{RAlt up}{Enter}
+	; breve
+	SendInput "{RAlt down}{vkDE}{RAlt up}{vk31}{Enter}"
+	SendInput "{RAlt down}{vkDE}{RAlt up}{RAlt down}+{vk31}{RAlt up}{Enter}"
 
-; breve
-Send, {RAlt down}{vkDE}{RAlt up}{vk31}{Enter}
-Send, {RAlt down}{vkDE}{RAlt up}{RAlt down}+{vk31}{RAlt up}{Enter}
+	; inverted breve
+	SendInput "{RAlt down}+{vkDE}{RAlt up}{vk31}{RAlt down}+{vkDE}{RAlt up}{vk33}{Enter}"
+	SendInput "{RAlt down}+{vkDE}{RAlt up}{RAlt down}+{vk31}{RAlt up}{RAlt down}+{vkDE}{RAlt up}{RAlt down}+{vk33}{RAlt up}{Enter}"
 
-; inverted breve
-Send, {RAlt down}+{vkDE}{RAlt up}{vk31}{RAlt down}+{vkDE}{RAlt up}{vk33}{Enter}
-Send, {RAlt down}+{vkDE}{RAlt up}{RAlt down}+{vk31}{RAlt up}{RAlt down}+{vkDE}{RAlt up}{RAlt down}+{vk33}{RAlt up}{Enter}
+	; =========================================
+	; Currency Symbols Layer
+	; =========================================
 
-; =========================================
-; Currency Symbols Layer
-; =========================================
-
-; Bitcoin symbol
-Send, {RAlt down}{vk46}{RAlt up}{vk42}{Enter}
-
-
-return
+	; Bitcoin symbol
+	SendInput "{RAlt down}{vk46}{RAlt up}{vk42}{Enter}"
+}
